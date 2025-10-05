@@ -62,13 +62,35 @@ jspm_packages/
 # dotenv environment variables file
 .env
 
-# Jekyll
+# Jekyll (legacy - no longer used)
 _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
 
-# Ruby
+# Ruby (legacy - no longer used)
 *.gem
 .bundle/
 vendor/
+
+# GitHub Pages deployment
+gh-pages/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Build artifacts
+*.build
+*.bundle
+*.map
+
+# Package lock files (keep one)
+# package-lock.json
+# yarn.lock
+
+# Local development
+.local/
+.cache/

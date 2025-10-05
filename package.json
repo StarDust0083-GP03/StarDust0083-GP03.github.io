@@ -10,7 +10,9 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "deploy:ci": "npm run build && gh-pages -d build -b gh-pages"
+    "deploy:ci": "npm run build && node gh-pages.config.js",
+    "deploy:local": "npm run build && gh-pages -d build -b gh-pages",
+    "deploy:manual": "gh-pages -d build -b gh-pages --repo https://github.com/StarDust0083-GP03/StarDust0083-GP03.github.io.git"
   },
   "dependencies": {
     "date-fns": "^2.29.3",

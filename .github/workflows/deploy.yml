@@ -1,5 +1,5 @@
-# 基于 react-gh-pages 方案的部署工作流（修复权限问题）
-name: Deploy React App to GitHub Pages
+# 基于 gh-pages 包的部署工作流
+name: Deploy React App to GitHub Pages using gh-pages
 
 # 触发条件
 on:
@@ -7,7 +7,7 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
-# 权限设置 - 关键修复
+# 权限设置
 permissions:
   contents: write  # 允许写入 gh-pages 分支
   pages: write     # 允许写入 GitHub Pages
@@ -22,6 +22,7 @@ jobs:
       uses: actions/checkout@v4
       with:
         fetch-depth: 0  # 获取完整历史记录
+        token: ${{ secrets.GITHUB_TOKEN }}  # 使用 GitHub Token
       
     - name: Setup Node.js ⚙️
       uses: actions/setup-node@v4
@@ -32,29 +33,25 @@ jobs:
     - name: Install dependencies 🔧
       run: npm ci
       
-    - name: Build 🏗️
+    - name: Configure Git 📝
+      run: |
+        git config --global user.name "GitHub Actions Bot"
+        git config --global user.email "actions@github.com"
+        
+    - name: Build React App 🏗️
       run: npm run build
       env:
-        CI: false  # 设置为 false 避免警告中断构建
+        CI: false  # 避免警告中断构建
         PUBLIC_URL: https://stardust0083-gp03.github.io
         
-    - name: Deploy to GitHub Pages 🚀
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./build
-        publish_branch: gh-pages
-        # 自定义提交信息
-        commit_message: "Deploy: ${{ github.event.head_commit.message }}"
-        # 保留 .nojekyll 文件
-        keep_files: true
-        # 强制孤儿提交（解决权限问题）
-        force_orphan: true
-        # 允许空提交
-        allow_empty_commit: true
+    - name: Deploy using gh-pages package 🚀
+      run: npm run deploy:ci
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         
-    - name: Deployment Status ✅
-      if: success()
+    - name: Verify Deployment ✅
       run: |
         echo "🎉 Deployment successful!"
+        echo "📦 Used gh-pages package for deployment"
         echo "🌐 Your blog is available at: https://stardust0083-gp03.github.io/"
+        echo "📁 Build files deployed to gh-pages branch"
