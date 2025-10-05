@@ -1,34 +1,87 @@
 name: Deploy React App to GitHub Pages
 
+# 触发条件
 on:
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
+  # 手动触发部署
+  workflow_dispatch:
+
+# 权限设置
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 并发设置
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
-  build-and-deploy:
+  # 构建任务
+  build:
     runs-on: ubuntu-latest
     
     steps:
-    - name: Checkout
-      uses: actions/checkout@v3
+    - name: Checkout Repository
+      uses: actions/checkout@v4
       
     - name: Setup Node.js
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         node-version: '18'
         cache: 'npm'
         
-    - name: Install dependencies
+    - name: Install Dependencies
       run: npm ci
       
-    - name: Build
+    - name: Run Tests
+      run: npm test -- --coverage --watchAll=false
+      continue-on-error: true
+      
+    - name: Build Application
       run: npm run build
+      env:
+        CI: true
+        
+    - name: Upload Build Artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: build-files
+        path: build/
+        retention-days: 7
+        
+  # 部署任务
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    
+    # 只在main分支推送时部署
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    
+    steps:
+    - name: Download Build Artifacts
+      uses: actions/download-artifact@v4
+      with:
+        name: build-files
+        path: build/
+        
+    - name: Setup Pages
+      uses: actions/configure-pages@v4
       
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
-      if: github.ref == 'refs/heads/main'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./build
+        publish_branch: gh-pages
+        cname: '' # 如果有自定义域名，在这里填写
+        
+    - name: Deployment Status
+      if: success()
+      run: |
+        echo "🎉 Deployment successful!"
+        echo "Your blog should be available at: https://stardust0083-gp03.github.io/"
