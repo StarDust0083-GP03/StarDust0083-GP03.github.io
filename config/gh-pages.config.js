@@ -12,7 +12,7 @@ const options = {
     : 'origin',
   
   // 构建目录
-  src: 'build/**/*',
+  src: 'build/**',
   
   // 提交信息
   message: `Deploy: ${new Date().toISOString()}`,
