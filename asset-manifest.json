@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "https://stardust0083-gp03.github.io/static/css/main.46171767.css",
-    "main.js": "https://stardust0083-gp03.github.io/static/js/main.b91dcd5c.js",
-    "index.html": "https://stardust0083-gp03.github.io/index.html",
-    "main.46171767.css.map": "https://stardust0083-gp03.github.io/static/css/main.46171767.css.map",
-    "main.b91dcd5c.js.map": "https://stardust0083-gp03.github.io/static/js/main.b91dcd5c.js.map"
+    "main.css": "/static/css/main.46171767.css",
+    "main.js": "/static/js/main.b91dcd5c.js",
+    "index.html": "/index.html",
+    "main.46171767.css.map": "/static/css/main.46171767.css.map",
+    "main.b91dcd5c.js.map": "/static/js/main.b91dcd5c.js.map"
   },
   "entrypoints": [
     "static/css/main.46171767.css",
