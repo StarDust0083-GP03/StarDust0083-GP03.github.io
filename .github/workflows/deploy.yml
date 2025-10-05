@@ -45,7 +45,7 @@ jobs:
         PUBLIC_URL: https://stardust0083-gp03.github.io
         
     - name: Deploy using gh-pages package 🚀
-      run: npm run deploy:ci
+      run: npm run deploy
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         
