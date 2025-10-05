@@ -57,11 +57,14 @@ const CollapsiblePost = ({ post, isExpanded = false, onTagClick }) => {
         </div>
       </header>
       
+      {!expanded && (
+        <div className="post-excerpt">
+          {post.excerpt}
+        </div>
+      )}
+      
       {expanded && (
         <div className="post-content">
-          <div className="post-excerpt">
-            {post.excerpt}
-          </div>
           <div className="post-body">
             <MarkdownRenderer content={post.content} />
           </div>
