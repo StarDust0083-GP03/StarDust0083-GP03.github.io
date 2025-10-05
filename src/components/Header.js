@@ -1,15 +1,44 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-const Header = () => {
+const Header = ({ activeSection, setActiveSection }) => {
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+      setActiveSection && setActiveSection(sectionId);
+    }
+  };
+
   return (
     <header className="site-header">
       <div className="wrapper">
-        <Link className="site-title" to="/">StarDust0083 Blog</Link>
+        <button 
+          className="site-title" 
+          onClick={() => scrollToSection('home')}
+          style={{ background: 'none', border: 'none', cursor: 'pointer' }}
+        >
+          StarDust0083 Blog
+        </button>
         <nav className="site-nav">
           <div className="trigger">
-            <Link className="page-link" to="/">Home</Link>
-            <Link className="page-link" to="/about">About</Link>
+            <button 
+              className={`page-link ${activeSection === 'home' ? 'active' : ''}`}
+              onClick={() => scrollToSection('home')}
+            >
+              首页
+            </button>
+            <button 
+              className={`page-link ${activeSection === 'posts' ? 'active' : ''}`}
+              onClick={() => scrollToSection('posts')}
+            >
+              文章
+            </button>
+            <button 
+              className={`page-link ${activeSection === 'about' ? 'active' : ''}`}
+              onClick={() => scrollToSection('about')}
+            >
+              关于
+            </button>
           </div>
         </nav>
       </div>

@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
 import { getAllTags } from '../utils/postLoader';
 import './About.css';
 
-const About = () => {
+const About = ({ onTagClick }) => {
   const [tags, setTags] = useState([]);
   const [loading, setLoading] = useState(true);
-  const navigate = useNavigate();
 
   useEffect(() => {
     const loadData = async () => {
@@ -25,8 +23,14 @@ const About = () => {
   }, []);
 
   const handleTagClick = (tag) => {
-    const encodedTag = encodeURIComponent(tag);
-    navigate(`/?tag=${encodedTag}`);
+    if (onTagClick) {
+      onTagClick(tag);
+      // Scroll to posts section
+      const postsSection = document.getElementById('posts');
+      if (postsSection) {
+        postsSection.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
   };
 
   return (
@@ -71,7 +75,17 @@ const About = () => {
             </div>
             
             <div className="back-home">
-              <Link to="/" className="back-link">← 返回首页</Link>
+              <button 
+                className="back-link"
+                onClick={() => {
+                  const heroSection = document.getElementById('hero');
+                  if (heroSection) {
+                    heroSection.scrollIntoView({ behavior: 'smooth' });
+                  }
+                }}
+              >
+                ← 返回顶部
+              </button>
             </div>
           </div>
         )}

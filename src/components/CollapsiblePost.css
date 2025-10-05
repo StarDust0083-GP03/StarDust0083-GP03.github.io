@@ -1,0 +1,145 @@
+.collapsible-post {
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.collapsible-post:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.post-header {
+  padding: 1.5rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.post-header:hover {
+  background-color: #f8f9fa;
+}
+
+.collapsible-post.expanded .post-header {
+  border-bottom-color: #e1e4e8;
+}
+
+.post-header-content {
+  flex: 1;
+}
+
+.post-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+  line-height: 1.3;
+}
+
+.post-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.post-date {
+  color: #7f8c8d;
+}
+
+.post-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  background: #e3f2fd;
+  color: #1976d2;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border: none;
+  cursor: default;
+}
+
+.tag-clickable {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.tag-clickable:hover {
+  background: #1976d2;
+  color: white;
+  transform: translateY(-1px);
+}
+
+.expand-icon {
+  margin-left: 1rem;
+  color: #666;
+  transition: transform 0.2s ease;
+}
+
+.expand-icon.rotated {
+  transform: rotate(180deg);
+}
+
+.post-content {
+  padding: 0 1.5rem 1.5rem;
+  animation: slideDown 0.3s ease-out;
+}
+
+.post-excerpt {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-left: 4px solid #3498db;
+  border-radius: 4px;
+  font-style: italic;
+  color: #555;
+}
+
+.post-body {
+  line-height: 1.6;
+}
+
+/* Animation for content expansion */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .post-header {
+    padding: 1rem;
+  }
+  
+  .post-content {
+    padding: 0 1rem 1rem;
+  }
+  
+  .post-title {
+    font-size: 1.25rem;
+  }
+  
+  .post-meta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+}
