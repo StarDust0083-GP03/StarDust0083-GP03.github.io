@@ -1,0 +1,21 @@
+{
+  "short_name": "StarDust Blog",
+  "name": "StarDust0083 Personal Blog",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "logo192.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1a1a2e",
+  "background_color": "#ffffff",
+  "description": "StarDust0083 Blog - A personal blog powered by React"
+}
