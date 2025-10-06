@@ -18,11 +18,11 @@ excerpt: 新建博客的原因
 
 五月天有首歌我很喜欢，“想象你的孙子孙女充满光的瞳孔，正等着你说你最光辉的一次传说”，有些事情现在不做，一辈子都不会做了。`,
   '2025-10-07 TODO&进度Track（定期更新）.md': `---
-title: Welcome to My Blog
+title: TODO&进度Track
 date: 2025-10-07
 tags:
   - TODO
-excerpt: Brief Introduction Here
+excerpt: TODO&进度Track
 ---
 
 ## 书
