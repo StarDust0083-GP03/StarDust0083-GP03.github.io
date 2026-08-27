@@ -7,9 +7,13 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "test": "npm run build"
   },
   "dependencies": {
     "astro": "7.2.7"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
   }
 }
