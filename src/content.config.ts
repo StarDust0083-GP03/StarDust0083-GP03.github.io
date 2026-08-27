@@ -2,7 +2,11 @@ import { defineCollection, z } from "astro:content"
 import { glob } from "astro/loaders"
 
 const posts = defineCollection({
-  loader: glob({ base: "./src/content/posts", pattern: "**/*.md" }),
+  loader: glob({
+    base: "./src/content/posts",
+    pattern: "**/*.md",
+    generateId: ({ data, entry }) => `${String(data.lang)}/${String(data.category)}/${String(data.slug ?? entry)}`,
+  }),
   schema: z.object({
     title: z.string(),
     description: z.string().optional(),
@@ -16,6 +20,7 @@ const posts = defineCollection({
     sourceHash: z.string().optional(),
     sourcePath: z.string().optional(),
     promptVersion: z.string().optional(),
+    model: z.string().optional(),
   }),
 })
 
