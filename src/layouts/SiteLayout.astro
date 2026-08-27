@@ -1,0 +1,45 @@
+---
+import Header from "../components/Header.astro"
+import { copy, languages } from "../data"
+import "../styles/global.css"
+
+const lang = Astro.props.lang ?? "en"
+const ui = copy[lang]
+const title = Astro.props.title ?? ui.brand
+const description = Astro.props.description ?? ui.strapline
+const siteUrl = Astro.site ?? new URL("https://stardust0083-gp03.github.io")
+const canonical = new URL(Astro.props.canonicalPath ?? Astro.url.pathname, siteUrl)
+const alternates = Astro.props.alternates ?? []
+const languageHref = Astro.props.languageHref
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" href="/favicon.svg" />
+    <link rel="canonical" href={canonical} />
+    <meta name="description" content={description} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content={ui.brand} />
+    {alternates.map((alternate) => (
+      <link rel="alternate" hreflang={alternate.lang} href={new URL(alternate.path, siteUrl)} />
+    ))}
+    <link rel="alternate" hreflang="x-default" href={new URL("/zh/", siteUrl)} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <div class="site-frame">
+      <Header lang={lang} category={Astro.props.category} languageHref={languageHref} />
+      <main><slot /></main>
+      <footer class="site-footer shell">
+        <p>{ui.footer}</p>
+        <span>© {new Date().getFullYear()} Stardust</span>
+      </footer>
+    </div>
+  </body>
+</html>

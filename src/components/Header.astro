@@ -1,0 +1,36 @@
+---
+import { categories, copy, languages, categoryPath } from "../data"
+
+const lang = Astro.props.lang
+const ui = copy[lang]
+const activeCategory = Astro.props.category
+const otherLang = languages.find((item) => item !== lang)
+const languageHref = Astro.props.languageHref ?? `/${otherLang}/`
+---
+
+<header class="site-header shell">
+  <a class="wordmark" href={`/${lang}/`} aria-label={`${ui.brand} — ${ui.home}`}>
+    <span class="wordmark-mark">✳</span>
+    <span>
+      <strong>{ui.brand}</strong>
+      <small>{ui.strapline}</small>
+    </span>
+  </a>
+
+  <nav class="main-nav" aria-label={ui.brand}>
+    <a class:list={["nav-link", { active: !activeCategory }]} href={`/${lang}/`}>{ui.allNotes}</a>
+    {categories.map((category) => (
+      <a
+        class:list={["nav-link", { active: activeCategory === category }]}
+        href={categoryPath(lang, category)}
+      >
+        {ui.categories[category]}
+      </a>
+    ))}
+  </nav>
+
+  <a class="language-switch" href={languageHref} lang={otherLang}>
+    <span class="language-dot" aria-hidden="true"></span>
+    {ui.switchLanguage}
+  </a>
+</header>

@@ -1,0 +1,19 @@
+---
+import { copy, formatDate, postPath } from "../data"
+
+const { post, lang } = Astro.props
+const ui = copy[lang]
+const data = post.data
+---
+
+<article class="post-card">
+  <div class="post-card-meta">
+    <span>{ui.categories[data.category]}</span>
+    <time datetime={data.date.toISOString()}>{formatDate(data.date, lang)}</time>
+  </div>
+  <h2><a href={postPath(lang, data.category, data.slug)}>{data.title}</a></h2>
+  {data.description && <p>{data.description}</p>}
+  <a class="text-link" href={postPath(lang, data.category, data.slug)}>
+    {ui.read}<span aria-hidden="true"> ↗</span>
+  </a>
+</article>

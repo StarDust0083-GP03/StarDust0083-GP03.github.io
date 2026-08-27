@@ -1,4 +1,0 @@
-{
-  "autorun": true,
-  "template": "template/{{date}}welcome-to-my-blog"
-}

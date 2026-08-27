@@ -1,0 +1,42 @@
+---
+import { getCollection } from "astro:content"
+import PostList from "../../../components/PostList.astro"
+import SiteLayout from "../../../layouts/SiteLayout.astro"
+import { categories, copy, languages, categoryPath } from "../../../data"
+
+export async function getStaticPaths() {
+  const allPosts = await getCollection("posts")
+  return languages.flatMap((lang) => categories.map((category) => ({
+    params: { lang, category },
+    props: {
+      posts: allPosts
+        .filter((post) => post.data.lang === lang && post.data.category === category)
+        .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf()),
+    },
+  })))
+}
+
+const lang = Astro.params.lang
+const category = Astro.params.category
+const ui = copy[lang]
+const posts = Astro.props.posts
+const alternates = languages.map((item) => ({ lang: item, path: categoryPath(item, category) }))
+---
+
+<SiteLayout
+  lang={lang}
+  category={category}
+  title={`${ui.categories[category]} — ${ui.brand}`}
+  description={ui.categories[category]}
+  canonicalPath={categoryPath(lang, category)}
+  alternates={alternates}
+  languageHref={categoryPath(lang === "zh" ? "en" : "zh", category)}
+>
+  <div class="shell">
+    <section class="category-intro">
+      <p class="section-label">{ui.brand}</p>
+      <h1>{ui.categories[category]}</h1>
+    </section>
+    <PostList posts={posts} lang={lang} />
+  </div>
+</SiteLayout>

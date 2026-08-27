@@ -1,0 +1,54 @@
+---
+import { getCollection } from "astro:content"
+import PostList from "../../components/PostList.astro"
+import SiteLayout from "../../layouts/SiteLayout.astro"
+import { copy, languages } from "../../data"
+
+export async function getStaticPaths() {
+  const allPosts = await getCollection("posts")
+  return languages.map((lang) => ({
+    params: { lang },
+    props: {
+      posts: allPosts
+        .filter((post) => post.data.lang === lang)
+        .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf()),
+    },
+  }))
+}
+
+const lang = Astro.params.lang
+const ui = copy[lang]
+const posts = Astro.props.posts
+const alternates = languages.map((item) => ({ lang: item, path: `/${item}/` }))
+---
+
+<SiteLayout
+  lang={lang}
+  title={`${ui.brand} — ${ui.strapline}`}
+  description={ui.heroText}
+  canonicalPath={`/${lang}/`}
+  alternates={alternates}
+  languageHref={`/${lang === "zh" ? "en" : "zh"}/`}
+>
+  <div class="shell">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">{ui.heroKicker}</p>
+        <h1>{ui.heroTitle}</h1>
+        <p class="hero-text">{ui.heroText}</p>
+      </div>
+      <aside class="hero-aside">
+        <p>{ui.latest}</p>
+        <p>{posts.length.toString().padStart(2, "0")} {lang === "zh" ? "篇公开记录" : "public notes"}</p>
+      </aside>
+    </section>
+
+    <section aria-labelledby="latest-heading">
+      <div class="section-heading">
+        <p class="section-label">{ui.latest}</p>
+        <h2 id="latest-heading">{ui.allNotes}</h2>
+      </div>
+      <PostList posts={posts} lang={lang} />
+    </section>
+  </div>
+</SiteLayout>

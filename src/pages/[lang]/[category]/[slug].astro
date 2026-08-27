@@ -1,0 +1,69 @@
+---
+import { getCollection, render } from "astro:content"
+import SiteLayout from "../../../layouts/SiteLayout.astro"
+import { copy, formatDate, languages, postPath } from "../../../data"
+
+export async function getStaticPaths() {
+  const posts = await getCollection("posts")
+  return posts.map((post) => {
+    const alternate = posts.find(
+      (candidate) => candidate.data.translationKey === post.data.translationKey && candidate.data.lang !== post.data.lang,
+    )
+    return {
+      params: {
+        lang: post.data.lang,
+        category: post.data.category,
+        slug: post.data.slug,
+      },
+      props: { post, alternate },
+    }
+  })
+}
+
+const { post, alternate } = Astro.props
+const lang = post.data.lang
+const ui = copy[lang]
+const { Content } = await render(post)
+const otherLang = languages.find((item) => item !== lang)
+const languageHref = alternate
+  ? postPath(otherLang, alternate.data.category, alternate.data.slug)
+  : `/${otherLang}/`
+const alternates = [
+  { lang, path: postPath(lang, post.data.category, post.data.slug) },
+  ...(alternate ? [{ lang: otherLang, path: postPath(otherLang, alternate.data.category, alternate.data.slug) }] : []),
+]
+---
+
+<SiteLayout
+  lang={lang}
+  title={`${post.data.title} — ${ui.brand}`}
+  description={post.data.description ?? ui.strapline}
+  category={post.data.category}
+  canonicalPath={postPath(lang, post.data.category, post.data.slug)}
+  alternates={alternates}
+  languageHref={languageHref}
+>
+  <article class="post-shell">
+    <header class="post-header">
+      <div class="post-kicker">
+        <span>{ui.categories[post.data.category]}</span>
+        <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date, lang)}</time>
+      </div>
+      <h1>{post.data.title}</h1>
+      {post.data.translation === "ai" && <p class="translation-note">{ui.translated}</p>}
+    </header>
+
+    <div class="prose">
+      <Content />
+    </div>
+
+    <footer class="post-footer">
+      <a href={`/${lang}/`}>← {ui.back}</a>
+      {alternate ? (
+        <a href={languageHref} lang={otherLang}>{ui.switchLanguage} ↗</a>
+      ) : (
+        <span>{ui.translationUnavailable}</span>
+      )}
+    </footer>
+  </article>
+</SiteLayout>
