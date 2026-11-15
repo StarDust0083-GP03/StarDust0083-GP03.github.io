@@ -1,7 +1,8 @@
 # Stardust Notes
 
-A bilingual personal blog built with Astro and generated from the published notes in the private `StarDust0083-GP03/Note` vault.
+StarDust's personal desktop homepage, built with Astro. The existing bilingual notes, generated from published notes in the private `StarDust0083-GP03/Note` vault, remain at `/zh/` and `/en/`.
 
+- Homepage: `/`, rendered from the self-contained `src/templates/desk.html` template. Its reading, bookmark, music, and repository records are demo data; no personal accounts are connected.
 - Chinese: `/zh/`
 - English: `/en/`
 - Production: <https://stardust0083-gp03.github.io/>
