@@ -3,6 +3,8 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: '47 20 * * *' # 04:47 Asia/Shanghai
   workflow_dispatch:
 
 permissions:
@@ -20,6 +22,22 @@ jobs:
     steps:
       - name: Check out the site
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Read approved snapshot and generate public cards
+        env:
+          FEED_HOST: ${{ vars.FEED_HOST }}
+          READ_KEY: ${{ secrets.FEED_READ_KEY }}
+          KNOWN_HOST: ${{ secrets.FEED_KNOWN_HOST }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -eu
+          umask 077
+          d=$(mktemp -d); trap 'rm -rf "$d"' EXIT
+          printf '%s\n' "$READ_KEY" > "$d/key"
+          printf '%s\n' "$KNOWN_HOST" > "$d/hosts"
+          ssh -T -o BatchMode=yes -o ConnectTimeout=20 -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes -o UserKnownHostsFile="$d/hosts" -i "$d/key" "pages-feed@$FEED_HOST" snapshot > "$d/reading.json"
+          python3 scripts/build_milestones.py "$d/reading.json"
+          chmod 755 public/data; chmod 644 public/data/milestones.json
 
       - name: Build and upload Astro output
         uses: withastro/action@e84f40bd8d2caa9e768ec82ad30dd81f0b280853 # v6.1.2

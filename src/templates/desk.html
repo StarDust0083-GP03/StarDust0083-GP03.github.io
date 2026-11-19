@@ -551,7 +551,7 @@ body{overflow-x:clip}
 </main>
 
 <footer class="foot" id="foot">
-  <p class="demo-line">离线演示陈列：书目、划线、网页、专辑与 fork 均为模拟样本（划线为自拟演示文字，不是原书引文）；公开仓库来自合成元数据。书封为本地照片的演示拼贴，不是原版封面。无账号、无网络请求、无音频播放。</p>
+  <p class="demo-line">带日期的公开进度与公开笔记来自每日快照。其余演示书目、划线、网页、专辑与 fork 为模拟样本（划线为自拟演示文字，不是原书引文）；公开仓库来自合成元数据。书封为本地照片的演示拼贴，不是原版封面。无账号、无网络请求、无音频播放。</p>
   <div class="demo-btns">
     <button type="button" class="mini" data-action="simulate-incoming">追加一条收藏（演示）</button>
     <button type="button" class="mini" data-action="sync-projects">检查公开仓库（演示）</button>
@@ -1415,12 +1415,20 @@ function layoutPile(pile,opts){
 }
 
 /* ======================= 视图：桌面 ======================= */
+var publicCards=/*PUBLIC_MILESTONES*/[];
+function milestoneHTML(c,slot){
+  var book=c.source==='微信读书', v=varsFor(slot,book?'book':'thought',{});
+  return '<article class="it '+(book?'it--book':'it--thought')+'" data-spatial-item="'+esc(slot)+'" data-kind="'+(book?'book':'thought')+'" style="'+v.css+';padding:18px"><small class="p">'+esc(c.source)+' · '+esc(c.date)+'</small><h3 class="p" style="overflow-wrap:anywhere"><a class="lnk" href="'+esc(c.url)+'">'+esc(c.title)+'</a></h3><strong class="p">'+esc(c.event)+'</strong></article>';
+}
 function homeParts(){
   var parts=[], i, r, ps=repoStore.projects;
   homeSizing=true;
   for(i=0;i<HOME_IDS.length;i++){
     r=A.get(HOME_IDS[i]);
-    if(r) parts.push(recordHTML(r,r.id==='highlight-102'?{hero:true}:null));
+    var source={'book-102':'微信读书','thought-30':'Obsidian','fork-62':'GitHub'}[HOME_IDS[i]];
+    var card=source && publicCards.find(function(c){return c.source===source;});
+    if(card) parts.push(milestoneHTML(card,HOME_IDS[i]));
+    else if(r) parts.push(recordHTML(r,r.id==='highlight-102'?{hero:true}:null));
     if(i===3){
       parts.push(entryHTML(A.counts().total));
       if(ps[0]) parts.push(projectHTML(ps[0]));

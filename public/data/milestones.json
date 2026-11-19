@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "cards": [
+    {
+      "id": "weread:25016193:50",
+      "date": "2026-11-15",
+      "title": "奔跑吧，程序员：从零开始打造产品、技术和团队",
+      "event": "已读至 66%",
+      "source": "微信读书",
+      "progress": 66,
+      "url": "https://weread.qq.com/web/search/books?keyword=%E5%A5%94%E8%B7%91%E5%90%A7%EF%BC%8C%E7%A8%8B%E5%BA%8F%E5%91%98"
+    },
+    {
+      "id": "release:421409768",
+      "source": "GitHub",
+      "title": "StarDust0083-GP03/pi-mono-architecture-book",
+      "event": "发布 book-v1.4.0-r2",
+      "date": "2026-10-23",
+      "url": "https://github.com/StarDust0083-GP03/pi-mono-architecture-book/releases/tag/book-v1.4.0-r2"
+    },
+    {
+      "id": "note:switching-to-omarchy",
+      "source": "Obsidian",
+      "title": "关于切换到 Omarchy",
+      "event": "公开笔记",
+      "date": "2026-08-22",
+      "url": "/zh/random-thoughts/switching-to-omarchy/"
+    },
+    {
+      "id": "note:family-celebration",
+      "source": "Obsidian",
+      "title": "家有喜事",
+      "event": "公开笔记",
+      "date": "2026-07-19",
+      "url": "/zh/random-thoughts/family-celebration/"
+    }
+  ]
+}
