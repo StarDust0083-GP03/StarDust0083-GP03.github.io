@@ -1,6 +1,175 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "cards": [
+    {
+      "id": "attention:3775c351c0264ca44198",
+      "repoKey": "fork:1464420895",
+      "since": "2026-11-19T16:52:44Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-11-19",
+      "at": "2026-11-19T16:52:44Z",
+      "title": "StarDust0083-GP03/GLaDOS",
+      "url": "https://github.com/StarDust0083-GP03/GLaDOS"
+    },
+    {
+      "id": "attention:d7ac16fbb76c39f077ac",
+      "repoKey": "star:618000065",
+      "since": "2026-11-19T16:52:40Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-11-19",
+      "at": "2026-11-19T16:52:40Z",
+      "title": "dnhkng/GLaDOS",
+      "url": "https://github.com/dnhkng/GLaDOS"
+    },
+    {
+      "id": "attention:2072b035db2df5726d2c",
+      "repoKey": "fork:1463611962",
+      "since": "2026-11-19T03:20:40Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-11-19",
+      "at": "2026-11-19T03:20:40Z",
+      "title": "StarDust0083-GP03/prompt-in-a-box",
+      "url": "https://github.com/StarDust0083-GP03/prompt-in-a-box"
+    },
+    {
+      "id": "attention:7f6dd8e6099b4e3a1915",
+      "repoKey": "star:1220037045",
+      "since": "2026-11-19T03:20:36Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-11-19",
+      "at": "2026-11-19T03:20:36Z",
+      "title": "PaulKinlan/prompt-in-a-box",
+      "url": "https://github.com/PaulKinlan/prompt-in-a-box"
+    },
+    {
+      "id": "attention:439b4ac5f4630c5f9895",
+      "repoKey": "fork:1462548429",
+      "since": "2026-11-18T08:57:03Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-11-18",
+      "at": "2026-11-18T08:57:03Z",
+      "title": "StarDust0083-GP03/ryugi",
+      "url": "https://github.com/StarDust0083-GP03/ryugi"
+    },
+    {
+      "id": "attention:661f87579c56378a002f",
+      "repoKey": "fork:1461118130",
+      "since": "2026-11-17T08:23:43Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-11-17",
+      "at": "2026-11-17T08:23:43Z",
+      "title": "StarDust0083-GP03/voicebox",
+      "url": "https://github.com/StarDust0083-GP03/voicebox"
+    },
+    {
+      "id": "attention:78a614bb9819a1c9aa5b",
+      "repoKey": "star:1377059008",
+      "since": "2026-11-17T08:23:36Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-11-17",
+      "at": "2026-11-17T08:23:36Z",
+      "title": "PaulKinlan/voicebox",
+      "url": "https://github.com/PaulKinlan/voicebox"
+    },
+    {
+      "id": "attention:fc1ce8faa3cf1ab85f09",
+      "repoKey": "fork:1460969223",
+      "since": "2026-11-17T05:44:10Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-11-17",
+      "at": "2026-11-17T05:44:10Z",
+      "title": "StarDust0083-GP03/rakazo",
+      "url": "https://github.com/StarDust0083-GP03/rakazo"
+    },
+    {
+      "id": "attention:8e1bdde31e41a02524ce",
+      "repoKey": "star:1332781509",
+      "since": "2026-11-17T05:44:07Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-11-17",
+      "at": "2026-11-17T05:44:07Z",
+      "title": "elie222/rakazo",
+      "url": "https://github.com/elie222/rakazo"
+    },
+    {
+      "id": "attention:86c3ba037de1f9592300",
+      "repoKey": "star:1407951147",
+      "since": "2026-11-16T05:36:41Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-11-16",
+      "at": "2026-11-16T05:36:41Z",
+      "title": "google-research/harness2",
+      "url": "https://github.com/google-research/harness2"
+    },
+    {
+      "id": "attention:82843448597c2905286d",
+      "repoKey": "fork:1459589229",
+      "since": "2026-11-16T05:36:31Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-11-16",
+      "at": "2026-11-16T05:36:31Z",
+      "title": "StarDust0083-GP03/harness2",
+      "url": "https://github.com/StarDust0083-GP03/harness2"
+    },
+    {
+      "id": "attention:6a82611cab79b4a2cee5",
+      "repoKey": "fork:1458582137",
+      "since": "2026-11-15T08:10:27Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-11-15",
+      "at": "2026-11-15T08:10:27Z",
+      "title": "StarDust0083-GP03/MSD-Manual-Portable",
+      "url": "https://github.com/StarDust0083-GP03/MSD-Manual-Portable"
+    },
+    {
+      "id": "attention:5f2b5d066b1c2c944fac",
+      "repoKey": "star:511191412",
+      "since": "2026-11-15T08:10:24Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-11-15",
+      "at": "2026-11-15T08:10:24Z",
+      "title": "SunsetMkt/MSD-Manual-Portable",
+      "url": "https://github.com/SunsetMkt/MSD-Manual-Portable"
+    },
     {
       "id": "weread:25016193:50",
       "date": "2026-11-15",
@@ -8,7 +177,606 @@
       "event": "已读至 66%",
       "source": "微信读书",
       "progress": 66,
-      "url": "https://weread.qq.com/web/search/books?keyword=%E5%A5%94%E8%B7%91%E5%90%A7%EF%BC%8C%E7%A8%8B%E5%BA%8F%E5%91%98"
+      "url": "https://weread.qq.com/web/search/books?keyword=%E5%A5%94%E8%B7%91%E5%90%A7%EF%BC%8C%E7%A8%8B%E5%BA%8F%E5%91%98",
+      "category": "reading"
+    },
+    {
+      "id": "attention:b62cfbb99fba153628ad",
+      "repoKey": "fork:1456372745",
+      "since": "2026-11-13T08:55:51Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-11-13",
+      "at": "2026-11-13T08:55:51Z",
+      "title": "StarDust0083-GP03/relax",
+      "url": "https://github.com/StarDust0083-GP03/relax"
+    },
+    {
+      "id": "attention:0357555879d49f0a3b55",
+      "repoKey": "star:1454392563",
+      "since": "2026-11-13T08:55:47Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-11-13",
+      "at": "2026-11-13T08:55:47Z",
+      "title": "makepad/relax",
+      "url": "https://github.com/makepad/relax"
+    },
+    {
+      "id": "attention:17f227afcf40aef8062d",
+      "repoKey": "fork:1456317523",
+      "since": "2026-11-13T07:55:50Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-11-13",
+      "at": "2026-11-13T07:55:50Z",
+      "title": "StarDust0083-GP03/pi-gpui",
+      "url": "https://github.com/StarDust0083-GP03/pi-gpui"
+    },
+    {
+      "id": "attention:cf1e10856ae36af8f72a",
+      "repoKey": "star:1446254310",
+      "since": "2026-11-13T07:55:47Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-11-13",
+      "at": "2026-11-13T07:55:47Z",
+      "title": "bytesbay/pi-gpui",
+      "url": "https://github.com/bytesbay/pi-gpui"
+    },
+    {
+      "id": "attention:fcacdca320162272e663",
+      "repoKey": "fork:1456265962",
+      "since": "2026-11-13T06:58:30Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-11-13",
+      "at": "2026-11-13T06:58:30Z",
+      "title": "StarDust0083-GP03/demo-to-production",
+      "url": "https://github.com/StarDust0083-GP03/demo-to-production"
+    },
+    {
+      "id": "attention:563d22d8ed5e41a70a43",
+      "repoKey": "fork:1454079960",
+      "since": "2026-11-11T14:23:56Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-11-11",
+      "at": "2026-11-11T14:23:56Z",
+      "title": "StarDust0083-GP03/open-intelligent-ui",
+      "url": "https://github.com/StarDust0083-GP03/open-intelligent-ui"
+    },
+    {
+      "id": "attention:b6bf429f6b5318e1a1ee",
+      "repoKey": "star:1409792187",
+      "since": "2026-11-11T14:23:54Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-11-11",
+      "at": "2026-11-11T14:23:54Z",
+      "title": "thesysdev/open-intelligent-ui",
+      "url": "https://github.com/thesysdev/open-intelligent-ui"
+    },
+    {
+      "id": "attention:9514a9d81756733d8be7",
+      "repoKey": "star:1447227957",
+      "since": "2026-11-09T12:24:56Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-11-09",
+      "at": "2026-11-09T12:24:56Z",
+      "title": "IainKay/ram-altman",
+      "url": "https://github.com/IainKay/ram-altman"
+    },
+    {
+      "id": "attention:3eaea8c11ad711c7bc4a",
+      "repoKey": "fork:1450995750",
+      "since": "2026-11-09T06:04:52Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-11-09",
+      "at": "2026-11-09T06:04:52Z",
+      "title": "StarDust0083-GP03/ardia",
+      "url": "https://github.com/StarDust0083-GP03/ardia"
+    },
+    {
+      "id": "attention:cc8db81835ef41a62212",
+      "repoKey": "star:1274703665",
+      "since": "2026-11-09T06:04:50Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-11-09",
+      "at": "2026-11-09T06:04:50Z",
+      "title": "ardia-browser/ardia",
+      "url": "https://github.com/ardia-browser/ardia"
+    },
+    {
+      "id": "attention:873561e8c57b4c92c572",
+      "repoKey": "fork:1450234793",
+      "since": "2026-11-08T11:51:53Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-11-08",
+      "at": "2026-11-08T11:51:53Z",
+      "title": "StarDust0083-GP03/fresh-session-continuation",
+      "url": "https://github.com/StarDust0083-GP03/fresh-session-continuation"
+    },
+    {
+      "id": "attention:1a2db36e07ad45a67809",
+      "repoKey": "star:1446426382",
+      "since": "2026-11-08T11:51:50Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-11-08",
+      "at": "2026-11-08T11:51:50Z",
+      "title": "erans/fresh-session-continuation",
+      "url": "https://github.com/erans/fresh-session-continuation"
+    },
+    {
+      "id": "attention:4d5aad326304e13f6da0",
+      "repoKey": "star:1416356902",
+      "since": "2026-11-08T11:51:26Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-11-08",
+      "at": "2026-11-08T11:51:26Z",
+      "title": "arcships/dim",
+      "url": "https://github.com/arcships/dim"
+    },
+    {
+      "id": "attention:6737cfbf4b39aeb26d79",
+      "repoKey": "fork:1450234243",
+      "since": "2026-11-08T11:51:12Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-11-08",
+      "at": "2026-11-08T11:51:12Z",
+      "title": "StarDust0083-GP03/dim",
+      "url": "https://github.com/StarDust0083-GP03/dim"
+    },
+    {
+      "id": "attention:87e1b12c9411e08e08e0",
+      "repoKey": "fork:1450030403",
+      "since": "2026-11-08T06:22:20Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-11-08",
+      "at": "2026-11-08T06:22:20Z",
+      "title": "StarDust0083-GP03/Comma",
+      "url": "https://github.com/StarDust0083-GP03/Comma"
+    },
+    {
+      "id": "attention:bcb0f9b97cc932e283a1",
+      "repoKey": "star:1397409589",
+      "since": "2026-11-08T06:22:17Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-11-08",
+      "at": "2026-11-08T06:22:17Z",
+      "title": "AFK-surf/Comma",
+      "url": "https://github.com/AFK-surf/Comma"
+    },
+    {
+      "id": "attention:6fe24a493105f65d6430",
+      "repoKey": "fork:1450028360",
+      "since": "2026-11-08T06:18:44Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-11-08",
+      "at": "2026-11-08T06:18:44Z",
+      "title": "StarDust0083-GP03/billion-context",
+      "url": "https://github.com/StarDust0083-GP03/billion-context"
+    },
+    {
+      "id": "attention:ca590dedcaafb27e2355",
+      "repoKey": "star:1324949198",
+      "since": "2026-11-08T06:18:41Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-11-08",
+      "at": "2026-11-08T06:18:41Z",
+      "title": "ranxianglei/billion-context",
+      "url": "https://github.com/ranxianglei/billion-context"
+    },
+    {
+      "id": "attention:a4efa5199081f69f67c7",
+      "repoKey": "fork:1444432087",
+      "since": "2026-11-03T14:51:56Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-11-03",
+      "at": "2026-11-03T14:51:56Z",
+      "title": "StarDust0083-GP03/infinity",
+      "url": "https://github.com/StarDust0083-GP03/infinity"
+    },
+    {
+      "id": "attention:a73b706518faf43cee6a",
+      "repoKey": "star:1209766308",
+      "since": "2026-11-03T14:51:51Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-11-03",
+      "at": "2026-11-03T14:51:51Z",
+      "title": "hydro-project/infinity",
+      "url": "https://github.com/hydro-project/infinity"
+    },
+    {
+      "id": "attention:3835b33dfa9f50c7aa94",
+      "repoKey": "fork:1442464719",
+      "since": "2026-11-02T03:28:26Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-11-02",
+      "at": "2026-11-02T03:28:26Z",
+      "title": "StarDust0083-GP03/memdoor",
+      "url": "https://github.com/StarDust0083-GP03/memdoor"
+    },
+    {
+      "id": "attention:5ca28e3e8577af03e645",
+      "repoKey": "star:1406324573",
+      "since": "2026-11-02T03:28:22Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-11-02",
+      "at": "2026-11-02T03:28:22Z",
+      "title": "guregodevo/memdoor",
+      "url": "https://github.com/guregodevo/memdoor"
+    },
+    {
+      "id": "attention:ced72604837e17b901f2",
+      "repoKey": "fork:1441933329",
+      "since": "2026-11-01T15:02:13Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-11-01",
+      "at": "2026-11-01T15:02:13Z",
+      "title": "StarDust0083-GP03/Mika",
+      "url": "https://github.com/StarDust0083-GP03/Mika"
+    },
+    {
+      "id": "attention:6767be30facdbd8b3ba9",
+      "repoKey": "star:1438540053",
+      "since": "2026-11-01T15:02:07Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-11-01",
+      "at": "2026-11-01T15:02:07Z",
+      "title": "wangzan101/Mika",
+      "url": "https://github.com/wangzan101/Mika"
+    },
+    {
+      "id": "attention:b13db941e51cece51b71",
+      "repoKey": "fork:1441681972",
+      "since": "2026-11-01T09:56:42Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-11-01",
+      "at": "2026-11-01T09:56:42Z",
+      "title": "StarDust0083-GP03/inkstone",
+      "url": "https://github.com/StarDust0083-GP03/inkstone"
+    },
+    {
+      "id": "attention:cd9733f2ba83e7db156c",
+      "repoKey": "star:1427772704",
+      "since": "2026-11-01T09:56:37Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-11-01",
+      "at": "2026-11-01T09:56:37Z",
+      "title": "Konata9/inkstone",
+      "url": "https://github.com/Konata9/inkstone"
+    },
+    {
+      "id": "attention:414498047934824ef670",
+      "repoKey": "star:1432442426",
+      "since": "2026-11-01T06:03:58Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-11-01",
+      "at": "2026-11-01T06:03:58Z",
+      "title": "VictorKildahl/cra",
+      "url": "https://github.com/VictorKildahl/cra"
+    },
+    {
+      "id": "attention:d1e49f1c8724e1199235",
+      "repoKey": "fork:1441447188",
+      "since": "2026-11-01T03:19:45Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-11-01",
+      "at": "2026-11-01T03:19:45Z",
+      "title": "StarDust0083-GP03/pi-rust",
+      "url": "https://github.com/StarDust0083-GP03/pi-rust"
+    },
+    {
+      "id": "attention:cef94c9ee98276232a1e",
+      "repoKey": "star:1334894476",
+      "since": "2026-11-01T03:19:41Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-11-01",
+      "at": "2026-11-01T03:19:41Z",
+      "title": "bigfish1913/pi-rust",
+      "url": "https://github.com/bigfish1913/pi-rust"
+    },
+    {
+      "id": "attention:28529ec2406cd64c1d7b",
+      "repoKey": "fork:1439353325",
+      "since": "2026-10-30T06:20:00Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-10-30",
+      "at": "2026-10-30T06:20:00Z",
+      "title": "StarDust0083-GP03/Claude-Code-Game-Studios",
+      "url": "https://github.com/StarDust0083-GP03/Claude-Code-Game-Studios"
+    },
+    {
+      "id": "attention:cd96ba11ee1e238c7c1c",
+      "repoKey": "star:1155965274",
+      "since": "2026-10-30T06:19:57Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-10-30",
+      "at": "2026-10-30T06:19:57Z",
+      "title": "Donchitos/Claude-Code-Game-Studios",
+      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios"
+    },
+    {
+      "id": "attention:6037aa32fdf7b853f98f",
+      "repoKey": "star:1398741146",
+      "since": "2026-10-30T01:43:27Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-10-30",
+      "at": "2026-10-30T01:43:27Z",
+      "title": "cmpnd-ai/dspy-system-one-agent-patterns",
+      "url": "https://github.com/cmpnd-ai/dspy-system-one-agent-patterns"
+    },
+    {
+      "id": "attention:46dafbac42087d563aa0",
+      "repoKey": "fork:1437886032",
+      "since": "2026-10-29T03:06:08Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-10-29",
+      "at": "2026-10-29T03:06:08Z",
+      "title": "StarDust0083-GP03/PiG",
+      "url": "https://github.com/StarDust0083-GP03/PiG"
+    },
+    {
+      "id": "attention:01f6c340652d45c7c67d",
+      "repoKey": "star:1374682325",
+      "since": "2026-10-29T03:06:05Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-10-29",
+      "at": "2026-10-29T03:06:05Z",
+      "title": "MichaelKinsy/PiG",
+      "url": "https://github.com/MichaelKinsy/PiG"
+    },
+    {
+      "id": "attention:656ae9a51948d666065e",
+      "repoKey": "fork:1437885809",
+      "since": "2026-10-29T03:05:49Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-10-29",
+      "at": "2026-10-29T03:05:49Z",
+      "title": "StarDust0083-GP03/hallmark",
+      "url": "https://github.com/StarDust0083-GP03/hallmark"
+    },
+    {
+      "id": "attention:ed3c08a932afd7cb0a5d",
+      "repoKey": "star:1222917575",
+      "since": "2026-10-29T03:05:45Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-10-29",
+      "at": "2026-10-29T03:05:45Z",
+      "title": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark"
+    },
+    {
+      "id": "attention:ff210579d8192e09a9c7",
+      "repoKey": "fork:1436648833",
+      "since": "2026-10-28T05:37:01Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-10-28",
+      "at": "2026-10-28T05:37:01Z",
+      "title": "StarDust0083-GP03/jailbreaks",
+      "url": "https://github.com/StarDust0083-GP03/jailbreaks"
+    },
+    {
+      "id": "attention:bfd08c2bb35eaaf6dddd",
+      "repoKey": "star:1273646780",
+      "since": "2026-10-28T05:36:56Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-10-28",
+      "at": "2026-10-28T05:36:56Z",
+      "title": "togg53192-cmd/jailbreaks",
+      "url": "https://github.com/togg53192-cmd/jailbreaks"
+    },
+    {
+      "id": "attention:457f49801d28bc16e285",
+      "repoKey": "fork:1435196404",
+      "since": "2026-10-27T03:23:12Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-10-27",
+      "at": "2026-10-27T03:23:12Z",
+      "title": "StarDust0083-GP03/Agent-Reach",
+      "url": "https://github.com/StarDust0083-GP03/Agent-Reach"
+    },
+    {
+      "id": "attention:596aa4b0136e21e9ce0d",
+      "repoKey": "star:1165277268",
+      "since": "2026-10-27T03:23:08Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-10-27",
+      "at": "2026-10-27T03:23:08Z",
+      "title": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    {
+      "id": "attention:b0cab25e484a98f5d626",
+      "repoKey": "fork:1433963772",
+      "since": "2026-10-26T05:56:35Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-10-26",
+      "at": "2026-10-26T05:56:35Z",
+      "title": "StarDust0083-GP03/impeccable",
+      "url": "https://github.com/StarDust0083-GP03/impeccable"
+    },
+    {
+      "id": "attention:9e48145669a02115c7c9",
+      "repoKey": "star:1097346685",
+      "since": "2026-10-26T05:56:32Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-10-26",
+      "at": "2026-10-26T05:56:32Z",
+      "title": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "id": "attention:3480c88b937cb0d0e774",
+      "repoKey": "star:1118085970",
+      "since": "2026-10-25T12:04:50Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-10-25",
+      "at": "2026-10-25T12:04:50Z",
+      "title": "opensandbox-group/OpenSandbox",
+      "url": "https://github.com/opensandbox-group/OpenSandbox"
+    },
+    {
+      "id": "attention:ebab5c568bb71303cc11",
+      "repoKey": "fork:1433153326",
+      "since": "2026-10-25T12:04:42Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-10-25",
+      "at": "2026-10-25T12:04:42Z",
+      "title": "StarDust0083-GP03/OpenSandbox",
+      "url": "https://github.com/StarDust0083-GP03/OpenSandbox"
+    },
+    {
+      "id": "attention:aff76cd1c1ade090d487",
+      "repoKey": "star:1433150550",
+      "since": "2026-10-25T12:01:16Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-10-25",
+      "at": "2026-10-25T12:01:16Z",
+      "title": "StarDust0083-GP03/SnowLuma",
+      "url": "https://github.com/StarDust0083-GP03/SnowLuma"
+    },
+    {
+      "id": "attention:aa17c5eb3937d72db3e1",
+      "repoKey": "fork:1433150550",
+      "since": "2026-10-25T12:01:12Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-10-25",
+      "at": "2026-10-25T12:01:12Z",
+      "title": "StarDust0083-GP03/SnowLuma",
+      "url": "https://github.com/StarDust0083-GP03/SnowLuma"
     },
     {
       "id": "release:421409768",
@@ -16,7 +784,502 @@
       "title": "StarDust0083-GP03/pi-mono-architecture-book",
       "event": "发布 book-v1.4.0-r2",
       "date": "2026-10-23",
-      "url": "https://github.com/StarDust0083-GP03/pi-mono-architecture-book/releases/tag/book-v1.4.0-r2"
+      "url": "https://github.com/StarDust0083-GP03/pi-mono-architecture-book/releases/tag/book-v1.4.0-r2",
+      "category": "project"
+    },
+    {
+      "id": "attention:d983bd4b91c6fa00935a",
+      "repoKey": "fork:1428341279",
+      "since": "2026-10-21T12:17:49Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-10-21",
+      "at": "2026-10-21T12:17:49Z",
+      "title": "StarDust0083-GP03/up",
+      "url": "https://github.com/StarDust0083-GP03/up"
+    },
+    {
+      "id": "attention:ba14994e28fb2aadd66b",
+      "repoKey": "star:92807616",
+      "since": "2026-10-21T12:17:46Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-10-21",
+      "at": "2026-10-21T12:17:46Z",
+      "title": "byoungd/up",
+      "url": "https://github.com/byoungd/up"
+    },
+    {
+      "id": "attention:471b597e9f3638b6fab4",
+      "repoKey": "fork:1428093505",
+      "since": "2026-10-21T08:27:20Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-10-21",
+      "at": "2026-10-21T08:27:20Z",
+      "title": "StarDust0083-GP03/Octop",
+      "url": "https://github.com/StarDust0083-GP03/Octop"
+    },
+    {
+      "id": "attention:f8e7e0cff0ec6b250c5e",
+      "repoKey": "star:1293600453",
+      "since": "2026-10-21T08:27:17Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-10-21",
+      "at": "2026-10-21T08:27:17Z",
+      "title": "TencentCloud/Octop",
+      "url": "https://github.com/TencentCloud/Octop"
+    },
+    {
+      "id": "attention:3b41caf4d6bb2c64ce58",
+      "repoKey": "fork:1427842771",
+      "since": "2026-10-21T03:43:42Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-10-21",
+      "at": "2026-10-21T03:43:42Z",
+      "title": "StarDust0083-GP03/RAG_Techniques",
+      "url": "https://github.com/StarDust0083-GP03/RAG_Techniques"
+    },
+    {
+      "id": "attention:829d071c5930c9dd0b53",
+      "repoKey": "star:828268839",
+      "since": "2026-10-21T03:43:38Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-10-21",
+      "at": "2026-10-21T03:43:38Z",
+      "title": "NirDiamant/RAG_Techniques",
+      "url": "https://github.com/NirDiamant/RAG_Techniques"
+    },
+    {
+      "id": "attention:206c0ea936d6453b074d",
+      "repoKey": "star:1406282614",
+      "since": "2026-10-20T14:33:30Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-10-20",
+      "at": "2026-10-20T14:33:30Z",
+      "title": "dbreunig/pi-mast-steer",
+      "url": "https://github.com/dbreunig/pi-mast-steer"
+    },
+    {
+      "id": "attention:ddd6331e1b6eefbe957d",
+      "repoKey": "fork:1426311051",
+      "since": "2026-10-20T00:07:37Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-10-20",
+      "at": "2026-10-20T00:07:37Z",
+      "title": "StarDust0083-GP03/AI-Engineer-from-scrach",
+      "url": "https://github.com/StarDust0083-GP03/AI-Engineer-from-scrach"
+    },
+    {
+      "id": "attention:bd7bd071eb03857c31da",
+      "repoKey": "star:1355693235",
+      "since": "2026-10-18T07:55:48Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-10-18",
+      "at": "2026-10-18T07:55:48Z",
+      "title": "second-state/wasmedge-agent",
+      "url": "https://github.com/second-state/wasmedge-agent"
+    },
+    {
+      "id": "attention:cab7e9db6610d058f012",
+      "repoKey": "fork:1420137295",
+      "since": "2026-10-15T03:50:18Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-10-15",
+      "at": "2026-10-15T03:50:18Z",
+      "title": "StarDust0083-GP03/anatomy",
+      "url": "https://github.com/StarDust0083-GP03/anatomy"
+    },
+    {
+      "id": "attention:2eca80a816faa5277354",
+      "repoKey": "star:1410124849",
+      "since": "2026-10-15T03:50:13Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-10-15",
+      "at": "2026-10-15T03:50:13Z",
+      "title": "wheresryan22/anatomy",
+      "url": "https://github.com/wheresryan22/anatomy"
+    },
+    {
+      "id": "attention:a1c5f12f45e6dc4d49b8",
+      "repoKey": "fork:1418557567",
+      "since": "2026-10-14T07:50:48Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-10-14",
+      "at": "2026-10-14T07:50:48Z",
+      "title": "StarDust0083-GP03/HowToLiveBetter",
+      "url": "https://github.com/StarDust0083-GP03/HowToLiveBetter"
+    },
+    {
+      "id": "attention:d2b68eb656c38f6ec40f",
+      "repoKey": "star:1359648985",
+      "since": "2026-10-14T07:50:43Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-10-14",
+      "at": "2026-10-14T07:50:43Z",
+      "title": "eternity4719/HowToLiveBetter",
+      "url": "https://github.com/eternity4719/HowToLiveBetter"
+    },
+    {
+      "id": "attention:3d33746058a17d7a4bae",
+      "repoKey": "star:1028492186",
+      "since": "2026-10-13T12:02:49Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-10-13",
+      "at": "2026-10-13T12:02:49Z",
+      "title": "eigent-ai/eigent",
+      "url": "https://github.com/eigent-ai/eigent"
+    },
+    {
+      "id": "attention:c7bf9b0c40f024de128f",
+      "repoKey": "fork:1412851438",
+      "since": "2026-10-10T06:32:01Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-10-10",
+      "at": "2026-10-10T06:32:01Z",
+      "title": "StarDust0083-GP03/operator-memory",
+      "url": "https://github.com/StarDust0083-GP03/operator-memory"
+    },
+    {
+      "id": "attention:a2f4f632ae36fc4bede7",
+      "repoKey": "star:1335771179",
+      "since": "2026-10-10T06:31:58Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-10-10",
+      "at": "2026-10-10T06:31:58Z",
+      "title": "aerovato/operator-memory",
+      "url": "https://github.com/aerovato/operator-memory"
+    },
+    {
+      "id": "attention:e054bd7b26fb1e9bea6e",
+      "repoKey": "fork:1411392135",
+      "since": "2026-10-09T06:27:23Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-10-09",
+      "at": "2026-10-09T06:27:23Z",
+      "title": "StarDust0083-GP03/ARTEX",
+      "url": "https://github.com/StarDust0083-GP03/ARTEX"
+    },
+    {
+      "id": "attention:44ca2551b6edf4067375",
+      "repoKey": "fork:1397345851",
+      "since": "2026-09-30T08:06:05Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-09-30",
+      "at": "2026-09-30T08:06:05Z",
+      "title": "StarDust0083-GP03/search-experiments",
+      "url": "https://github.com/StarDust0083-GP03/search-experiments"
+    },
+    {
+      "id": "attention:efcca19930c6d0972372",
+      "repoKey": "star:1200918219",
+      "since": "2026-09-30T08:06:01Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-09-30",
+      "at": "2026-09-30T08:06:01Z",
+      "title": "softwaredoug/search-experiments",
+      "url": "https://github.com/softwaredoug/search-experiments"
+    },
+    {
+      "id": "attention:e86304621d7f694b93af",
+      "repoKey": "fork:1396888021",
+      "since": "2026-09-30T03:07:50Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-09-30",
+      "at": "2026-09-30T03:07:50Z",
+      "title": "StarDust0083-GP03/jeff",
+      "url": "https://github.com/StarDust0083-GP03/jeff"
+    },
+    {
+      "id": "attention:90993f28a2d32e5b6e7f",
+      "repoKey": "star:1393229560",
+      "since": "2026-09-30T03:07:46Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-09-30",
+      "at": "2026-09-30T03:07:46Z",
+      "title": "firelex/jeff",
+      "url": "https://github.com/firelex/jeff"
+    },
+    {
+      "id": "attention:520e4bf41e614e76267c",
+      "repoKey": "star:1360620930",
+      "since": "2026-09-29T09:15:19Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-09-29",
+      "at": "2026-09-29T09:15:19Z",
+      "title": "reladraw/reladraw",
+      "url": "https://github.com/reladraw/reladraw"
+    },
+    {
+      "id": "attention:72d890afb7f9fe8dc173",
+      "repoKey": "fork:1393079836",
+      "since": "2026-09-28T15:25:14Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-09-28",
+      "at": "2026-09-28T15:25:14Z",
+      "title": "StarDust0083-GP03/nimble",
+      "url": "https://github.com/StarDust0083-GP03/nimble"
+    },
+    {
+      "id": "attention:25d24bf25829525e9027",
+      "repoKey": "star:1375631360",
+      "since": "2026-09-28T15:25:11Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-09-28",
+      "at": "2026-09-28T15:25:11Z",
+      "title": "bespokelabsai/nimble",
+      "url": "https://github.com/bespokelabsai/nimble"
+    },
+    {
+      "id": "attention:720a2fb3ccb5ea2de940",
+      "repoKey": "fork:1392629738",
+      "since": "2026-09-28T12:17:04Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-09-28",
+      "at": "2026-09-28T12:17:04Z",
+      "title": "StarDust0083-GP03/whiteboard",
+      "url": "https://github.com/StarDust0083-GP03/whiteboard"
+    },
+    {
+      "id": "attention:ef5d322efd4e84219f92",
+      "repoKey": "star:1338539251",
+      "since": "2026-09-28T12:17:00Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-09-28",
+      "at": "2026-09-28T12:17:00Z",
+      "title": "devdotfast/whiteboard",
+      "url": "https://github.com/devdotfast/whiteboard"
+    },
+    {
+      "id": "attention:1841166ef0e76388bf34",
+      "repoKey": "fork:1384868671",
+      "since": "2026-09-24T06:41:50Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-09-24",
+      "at": "2026-09-24T06:41:50Z",
+      "title": "StarDust0083-GP03/codebase-memory-mcp",
+      "url": "https://github.com/StarDust0083-GP03/codebase-memory-mcp"
+    },
+    {
+      "id": "attention:a1d337ecb3bff8ee72ac",
+      "repoKey": "star:1166102148",
+      "since": "2026-09-24T06:41:47Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-09-24",
+      "at": "2026-09-24T06:41:47Z",
+      "title": "DeusData/codebase-memory-mcp",
+      "url": "https://github.com/DeusData/codebase-memory-mcp"
+    },
+    {
+      "id": "attention:4e452df074eb203af4cf",
+      "repoKey": "star:1248194723",
+      "since": "2026-09-24T03:47:55Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-09-24",
+      "at": "2026-09-24T03:47:55Z",
+      "title": "AprilNEA/OpenLogi",
+      "url": "https://github.com/AprilNEA/OpenLogi"
+    },
+    {
+      "id": "attention:f68d1c9901b52f546d32",
+      "repoKey": "star:1375069862",
+      "since": "2026-09-22T05:45:53Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-09-22",
+      "at": "2026-09-22T05:45:53Z",
+      "title": "jaredpalmer/kev",
+      "url": "https://github.com/jaredpalmer/kev"
+    },
+    {
+      "id": "attention:9f73aa81d916473031d9",
+      "repoKey": "fork:1378310253",
+      "since": "2026-09-20T12:26:49Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-09-20",
+      "at": "2026-09-20T12:26:49Z",
+      "title": "StarDust0083-GP03/jev-experiments",
+      "url": "https://github.com/StarDust0083-GP03/jev-experiments"
+    },
+    {
+      "id": "attention:77a7e046ed9929bacd6c",
+      "repoKey": "star:1375172727",
+      "since": "2026-09-20T12:26:45Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-09-20",
+      "at": "2026-09-20T12:26:45Z",
+      "title": "dabit3/jev-experiments",
+      "url": "https://github.com/dabit3/jev-experiments"
+    },
+    {
+      "id": "attention:b68c1ca46e30f128f3de",
+      "repoKey": "fork:1377993300",
+      "since": "2026-09-20T06:08:19Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-09-20",
+      "at": "2026-09-20T06:08:19Z",
+      "title": "StarDust0083-GP03/SemIf",
+      "url": "https://github.com/StarDust0083-GP03/SemIf"
+    },
+    {
+      "id": "attention:d39b2d82b42208576180",
+      "repoKey": "fork:1377992387",
+      "since": "2026-09-20T06:07:11Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-09-20",
+      "at": "2026-09-20T06:07:11Z",
+      "title": "StarDust0083-GP03/openjev-sglang",
+      "url": "https://github.com/StarDust0083-GP03/openjev-sglang"
+    },
+    {
+      "id": "attention:ea4a83065921223c7c94",
+      "repoKey": "fork:1376184176",
+      "since": "2026-09-18T17:08:34Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-09-18",
+      "at": "2026-09-18T17:08:34Z",
+      "title": "StarDust0083-GP03/agent-browser",
+      "url": "https://github.com/StarDust0083-GP03/agent-browser"
+    },
+    {
+      "id": "attention:e847bef4e77990b03263",
+      "repoKey": "fork:1367970397",
+      "since": "2026-09-13T03:38:48Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-09-13",
+      "at": "2026-09-13T03:38:48Z",
+      "title": "StarDust0083-GP03/awesome-design-md",
+      "url": "https://github.com/StarDust0083-GP03/awesome-design-md"
+    },
+    {
+      "id": "attention:b6e36e16e0703966bedc",
+      "repoKey": "star:1197515131",
+      "since": "2026-09-13T03:38:43Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-09-13",
+      "at": "2026-09-13T03:38:43Z",
+      "title": "VoltAgent/awesome-design-md",
+      "url": "https://github.com/VoltAgent/awesome-design-md"
+    },
+    {
+      "id": "attention:14c55d0399787e283d33",
+      "repoKey": "star:114870155",
+      "since": "2026-08-28T17:18:47Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-08-28",
+      "at": "2026-08-28T17:18:47Z",
+      "title": "CommandCodeAI/command-code",
+      "url": "https://github.com/CommandCodeAI/command-code"
     },
     {
       "id": "note:switching-to-omarchy",
@@ -24,7 +1287,437 @@
       "title": "关于切换到 Omarchy",
       "event": "公开笔记",
       "date": "2026-08-22",
-      "url": "/zh/random-thoughts/switching-to-omarchy/"
+      "url": "/zh/random-thoughts/switching-to-omarchy/",
+      "category": "note"
+    },
+    {
+      "id": "attention:e70dd952ef561c7f3496",
+      "repoKey": "fork:1341464846",
+      "since": "2026-08-21T06:11:47Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-08-21",
+      "at": "2026-08-21T06:11:47Z",
+      "title": "StarDust0083-GP03/dashtouch",
+      "url": "https://github.com/StarDust0083-GP03/dashtouch"
+    },
+    {
+      "id": "attention:78bf332a39ea98958afc",
+      "repoKey": "star:1329476290",
+      "since": "2026-08-21T06:11:44Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-08-21",
+      "at": "2026-08-21T06:11:44Z",
+      "title": "anildash/dashtouch",
+      "url": "https://github.com/anildash/dashtouch"
+    },
+    {
+      "id": "attention:0d749b7ae61f3cb79baf",
+      "repoKey": "fork:1338133916",
+      "since": "2026-08-18T07:59:35Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-08-18",
+      "at": "2026-08-18T07:59:35Z",
+      "title": "StarDust0083-GP03/OpenCLI",
+      "url": "https://github.com/StarDust0083-GP03/OpenCLI"
+    },
+    {
+      "id": "attention:4b1f3559c0a432fae248",
+      "repoKey": "star:1181982220",
+      "since": "2026-08-18T07:59:32Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-08-18",
+      "at": "2026-08-18T07:59:32Z",
+      "title": "jackwener/OpenCLI",
+      "url": "https://github.com/jackwener/OpenCLI"
+    },
+    {
+      "id": "attention:1c4aa6eade2e663745c1",
+      "repoKey": "fork:1337218345",
+      "since": "2026-08-17T13:39:05Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-08-17",
+      "at": "2026-08-17T13:39:05Z",
+      "title": "StarDust0083-GP03/gemini-android-computer-use-quickstart",
+      "url": "https://github.com/StarDust0083-GP03/gemini-android-computer-use-quickstart"
+    },
+    {
+      "id": "attention:6f7367b554dd4d92b13f",
+      "repoKey": "star:1280204353",
+      "since": "2026-08-17T13:38:57Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-08-17",
+      "at": "2026-08-17T13:38:57Z",
+      "title": "google-gemini/gemini-android-computer-use-quickstart",
+      "url": "https://github.com/google-gemini/gemini-android-computer-use-quickstart"
+    },
+    {
+      "id": "attention:a6f94b7762b0aa7a89d5",
+      "repoKey": "fork:1336611732",
+      "since": "2026-08-17T03:19:29Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-08-17",
+      "at": "2026-08-17T03:19:29Z",
+      "title": "StarDust0083-GP03/brain.md",
+      "url": "https://github.com/StarDust0083-GP03/brain.md"
+    },
+    {
+      "id": "attention:62904a74bd6c171cd47a",
+      "repoKey": "fork:1335919588",
+      "since": "2026-08-16T12:41:28Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-08-16",
+      "at": "2026-08-16T12:41:28Z",
+      "title": "StarDust0083-GP03/OpenAI-sublime-text",
+      "url": "https://github.com/StarDust0083-GP03/OpenAI-sublime-text"
+    },
+    {
+      "id": "attention:e7db2a5cdcd801d4dac5",
+      "repoKey": "star:576971893",
+      "since": "2026-08-16T12:41:22Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-08-16",
+      "at": "2026-08-16T12:41:22Z",
+      "title": "yaroslavyaroslav/OpenAI-sublime-text",
+      "url": "https://github.com/yaroslavyaroslav/OpenAI-sublime-text"
+    },
+    {
+      "id": "attention:57baef034223ca3a97fc",
+      "repoKey": "star:989024820",
+      "since": "2026-08-16T11:48:57Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-08-16",
+      "at": "2026-08-16T11:48:57Z",
+      "title": "softwaredoug/cheat-at-search",
+      "url": "https://github.com/softwaredoug/cheat-at-search"
+    },
+    {
+      "id": "attention:8791ef9ba5390e258680",
+      "repoKey": "fork:1333170219",
+      "since": "2026-08-13T13:50:30Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-08-13",
+      "at": "2026-08-13T13:50:30Z",
+      "title": "StarDust0083-GP03/openpencil",
+      "url": "https://github.com/StarDust0083-GP03/openpencil"
+    },
+    {
+      "id": "attention:f65349ab18c3131774df",
+      "repoKey": "star:1159938129",
+      "since": "2026-08-13T13:50:27Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-08-13",
+      "at": "2026-08-13T13:50:27Z",
+      "title": "ZSeven-W/openpencil",
+      "url": "https://github.com/ZSeven-W/openpencil"
+    },
+    {
+      "id": "attention:e4b2519f3b633b14255a",
+      "repoKey": "fork:1332808267",
+      "since": "2026-08-13T07:02:12Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-08-13",
+      "at": "2026-08-13T07:02:12Z",
+      "title": "StarDust0083-GP03/humanizer",
+      "url": "https://github.com/StarDust0083-GP03/humanizer"
+    },
+    {
+      "id": "attention:a8a20ee91dc2b7efedcd",
+      "repoKey": "star:1136666433",
+      "since": "2026-08-13T07:02:10Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-08-13",
+      "at": "2026-08-13T07:02:10Z",
+      "title": "blader/humanizer",
+      "url": "https://github.com/blader/humanizer"
+    },
+    {
+      "id": "attention:1059ed77d032264f0a97",
+      "repoKey": "star:1232493406",
+      "since": "2026-08-12T08:47:22Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-08-12",
+      "at": "2026-08-12T08:47:22Z",
+      "title": "PrimeIntellect-ai/prime-agent",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent"
+    },
+    {
+      "id": "attention:10a10df09bfabaeb058a",
+      "repoKey": "fork:1331810079",
+      "since": "2026-08-12T08:47:15Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-08-12",
+      "at": "2026-08-12T08:47:15Z",
+      "title": "StarDust0083-GP03/prime-agent",
+      "url": "https://github.com/StarDust0083-GP03/prime-agent"
+    },
+    {
+      "id": "attention:ae08cd3edb62354726f1",
+      "repoKey": "fork:1330465488",
+      "since": "2026-08-11T03:45:02Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-08-11",
+      "at": "2026-08-11T03:45:02Z",
+      "title": "StarDust0083-GP03/learnscape",
+      "url": "https://github.com/StarDust0083-GP03/learnscape"
+    },
+    {
+      "id": "attention:67013bdef964a3e1d48b",
+      "repoKey": "fork:1322559478",
+      "since": "2026-08-04T05:40:34Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-08-04",
+      "at": "2026-08-04T05:40:34Z",
+      "title": "StarDust0083-GP03/Falco",
+      "url": "https://github.com/StarDust0083-GP03/Falco"
+    },
+    {
+      "id": "attention:489d4da2ac145092c3f9",
+      "repoKey": "fork:1320264633",
+      "since": "2026-08-02T14:30:33Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-08-02",
+      "at": "2026-08-02T14:30:33Z",
+      "title": "StarDust0083-GP03/TencentDB-Agent-Memory",
+      "url": "https://github.com/StarDust0083-GP03/TencentDB-Agent-Memory"
+    },
+    {
+      "id": "attention:d1e6a5fe8f04563a6311",
+      "repoKey": "star:255378816",
+      "since": "2026-07-31T12:24:06Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-07-31",
+      "at": "2026-07-31T12:24:06Z",
+      "title": "bigskysoftware/htmx",
+      "url": "https://github.com/bigskysoftware/htmx"
+    },
+    {
+      "id": "attention:5512995aa4f8551a5794",
+      "repoKey": "fork:1316773836",
+      "since": "2026-07-30T03:14:59Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-07-30",
+      "at": "2026-07-30T03:14:59Z",
+      "title": "StarDust0083-GP03/turbo-fieldfare",
+      "url": "https://github.com/StarDust0083-GP03/turbo-fieldfare"
+    },
+    {
+      "id": "attention:2a9df2a9f598b74cd234",
+      "repoKey": "star:1304159264",
+      "since": "2026-07-30T03:14:55Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-07-30",
+      "at": "2026-07-30T03:14:55Z",
+      "title": "drumih/turbo-fieldfare",
+      "url": "https://github.com/drumih/turbo-fieldfare"
+    },
+    {
+      "id": "attention:1ba8a3020ab4abc9a6d1",
+      "repoKey": "fork:1314680547",
+      "since": "2026-07-28T07:26:57Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-07-28",
+      "at": "2026-07-28T07:26:57Z",
+      "title": "StarDust0083-GP03/better-harness",
+      "url": "https://github.com/StarDust0083-GP03/better-harness"
+    },
+    {
+      "id": "attention:6256d2b198b04c6d0c47",
+      "repoKey": "star:1307679581",
+      "since": "2026-07-28T07:26:52Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-07-28",
+      "at": "2026-07-28T07:26:52Z",
+      "title": "QoderAI/better-harness",
+      "url": "https://github.com/QoderAI/better-harness"
+    },
+    {
+      "id": "attention:001f0babc6ac10838a0e",
+      "repoKey": "fork:1313364313",
+      "since": "2026-07-27T03:08:24Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-07-27",
+      "at": "2026-07-27T03:08:24Z",
+      "title": "StarDust0083-GP03/esp32-ai",
+      "url": "https://github.com/StarDust0083-GP03/esp32-ai"
+    },
+    {
+      "id": "attention:5844f879d0ec6e94bfcf",
+      "repoKey": "star:1310057619",
+      "since": "2026-07-27T03:08:21Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-07-27",
+      "at": "2026-07-27T03:08:21Z",
+      "title": "slvDev/esp32-ai",
+      "url": "https://github.com/slvDev/esp32-ai"
+    },
+    {
+      "id": "attention:60b247c9fe2555498666",
+      "repoKey": "star:1289755707",
+      "since": "2026-07-24T14:55:35Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-07-24",
+      "at": "2026-07-24T14:55:35Z",
+      "title": "buchidonggua/dg-ai-notes",
+      "url": "https://github.com/buchidonggua/dg-ai-notes"
+    },
+    {
+      "id": "attention:c4ca4b86428b45987163",
+      "repoKey": "fork:1309576806",
+      "since": "2026-07-23T05:57:02Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-07-23",
+      "at": "2026-07-23T05:57:02Z",
+      "title": "StarDust0083-GP03/worldmonitor",
+      "url": "https://github.com/StarDust0083-GP03/worldmonitor"
+    },
+    {
+      "id": "attention:1d2c6d8c318724f04e96",
+      "repoKey": "star:1130564872",
+      "since": "2026-07-23T05:56:58Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-07-23",
+      "at": "2026-07-23T05:56:58Z",
+      "title": "koala73/worldmonitor",
+      "url": "https://github.com/koala73/worldmonitor"
+    },
+    {
+      "id": "attention:cde3abf762c50d134669",
+      "repoKey": "fork:1309462270",
+      "since": "2026-07-23T03:03:42Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-07-23",
+      "at": "2026-07-23T03:03:42Z",
+      "title": "StarDust0083-GP03/kilo",
+      "url": "https://github.com/StarDust0083-GP03/kilo"
+    },
+    {
+      "id": "attention:3ba775d4a65dcf7f8522",
+      "repoKey": "star:62994219",
+      "since": "2026-07-23T03:03:38Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-07-23",
+      "at": "2026-07-23T03:03:38Z",
+      "title": "antirez/kilo",
+      "url": "https://github.com/antirez/kilo"
+    },
+    {
+      "id": "attention:ca09b010d1f9483ad4c5",
+      "repoKey": "star:1245901041",
+      "since": "2026-07-21T14:18:51Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-07-21",
+      "at": "2026-07-21T14:18:51Z",
+      "title": "WEIFENG2333/phistory",
+      "url": "https://github.com/WEIFENG2333/phistory"
+    },
+    {
+      "id": "attention:f27b7a977404595fef02",
+      "repoKey": "star:1174967074",
+      "since": "2026-07-19T05:43:24Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-07-19",
+      "at": "2026-07-19T05:43:24Z",
+      "title": "ZhangHanDong/agent-spec",
+      "url": "https://github.com/ZhangHanDong/agent-spec"
     },
     {
       "id": "note:family-celebration",
@@ -32,7 +1725,1822 @@
       "title": "家有喜事",
       "event": "公开笔记",
       "date": "2026-07-19",
-      "url": "/zh/random-thoughts/family-celebration/"
+      "url": "/zh/random-thoughts/family-celebration/",
+      "category": "note"
+    },
+    {
+      "id": "attention:2894e29b17474a24d118",
+      "repoKey": "star:1134272247",
+      "since": "2026-07-17T06:56:46Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-07-17",
+      "at": "2026-07-17T06:56:46Z",
+      "title": "runcat-dev/RunCatNeo",
+      "url": "https://github.com/runcat-dev/RunCatNeo"
+    },
+    {
+      "id": "attention:bf6ae6c48085f9865a68",
+      "repoKey": "star:1266358941",
+      "since": "2026-07-17T06:56:35Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-07-17",
+      "at": "2026-07-17T06:56:35Z",
+      "title": "runcat-dev/RunnerGallery",
+      "url": "https://github.com/runcat-dev/RunnerGallery"
+    },
+    {
+      "id": "attention:b4350b9b4ca9675409bd",
+      "repoKey": "star:1288390205",
+      "since": "2026-07-17T03:22:13Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-07-17",
+      "at": "2026-07-17T03:22:13Z",
+      "title": "Europa2061/pi-auto-approval",
+      "url": "https://github.com/Europa2061/pi-auto-approval"
+    },
+    {
+      "id": "attention:55139f9ded0a7d3b3042",
+      "repoKey": "star:1294320539",
+      "since": "2026-07-15T08:58:52Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-07-15",
+      "at": "2026-07-15T08:58:52Z",
+      "title": "asnowwolf/meta-project-poc",
+      "url": "https://github.com/asnowwolf/meta-project-poc"
+    },
+    {
+      "id": "attention:565ac0b42735c9f92ff3",
+      "repoKey": "fork:1297944422",
+      "since": "2026-07-12T03:20:07Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-07-12",
+      "at": "2026-07-12T03:20:07Z",
+      "title": "StarDust0083-GP03/pgrust",
+      "url": "https://github.com/StarDust0083-GP03/pgrust"
+    },
+    {
+      "id": "attention:8af3e61bbf82c6636563",
+      "repoKey": "star:1215569807",
+      "since": "2026-07-12T03:20:03Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-07-12",
+      "at": "2026-07-12T03:20:03Z",
+      "title": "malisper/pgrust",
+      "url": "https://github.com/malisper/pgrust"
+    },
+    {
+      "id": "attention:4982fbce5ba6351c4453",
+      "repoKey": "star:1216173720",
+      "since": "2026-07-09T12:06:28Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-07-09",
+      "at": "2026-07-09T12:06:28Z",
+      "title": "tw93/Kami",
+      "url": "https://github.com/tw93/Kami"
+    },
+    {
+      "id": "attention:4a78eb1efd770ec5b15b",
+      "repoKey": "star:1179363570",
+      "since": "2026-07-09T12:06:13Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-07-09",
+      "at": "2026-07-09T12:06:13Z",
+      "title": "tw93/Waza",
+      "url": "https://github.com/tw93/Waza"
+    },
+    {
+      "id": "attention:8e9218839a35a6811a56",
+      "repoKey": "fork:1289723460",
+      "since": "2026-07-05T05:50:01Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-07-05",
+      "at": "2026-07-05T05:50:01Z",
+      "title": "StarDust0083-GP03/piece",
+      "url": "https://github.com/StarDust0083-GP03/piece"
+    },
+    {
+      "id": "attention:a78800895236b3b5b444",
+      "repoKey": "fork:1283023996",
+      "since": "2026-06-28T13:14:47Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-06-28",
+      "at": "2026-06-28T13:14:47Z",
+      "title": "StarDust0083-GP03/witr",
+      "url": "https://github.com/StarDust0083-GP03/witr"
+    },
+    {
+      "id": "attention:546ad6e32aa2ea17f9cc",
+      "repoKey": "fork:1283022417",
+      "since": "2026-06-28T13:12:58Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-06-28",
+      "at": "2026-06-28T13:12:58Z",
+      "title": "StarDust0083-GP03/claude-tap",
+      "url": "https://github.com/StarDust0083-GP03/claude-tap"
+    },
+    {
+      "id": "attention:22cc86840fd92eb3728f",
+      "repoKey": "star:387213208",
+      "since": "2026-06-28T09:41:17Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-06-28",
+      "at": "2026-06-28T09:41:17Z",
+      "title": "jackyzha0/quartz",
+      "url": "https://github.com/jackyzha0/quartz"
+    },
+    {
+      "id": "attention:6d3b6fe4dbcc058df3de",
+      "repoKey": "fork:1281970208",
+      "since": "2026-06-27T06:31:55Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-06-27",
+      "at": "2026-06-27T06:31:55Z",
+      "title": "StarDust0083-GP03/Prowl",
+      "url": "https://github.com/StarDust0083-GP03/Prowl"
+    },
+    {
+      "id": "attention:9e20f4b8b4a2f71a0d3a",
+      "repoKey": "star:1105984666",
+      "since": "2026-06-26T06:18:43Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-06-26",
+      "at": "2026-06-26T06:18:43Z",
+      "title": "peteonrails/voxtype",
+      "url": "https://github.com/peteonrails/voxtype"
+    },
+    {
+      "id": "attention:60988a875310c5bb5286",
+      "repoKey": "fork:1279812176",
+      "since": "2026-06-25T03:17:44Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-06-25",
+      "at": "2026-06-25T03:17:44Z",
+      "title": "StarDust0083-GP03/objgit",
+      "url": "https://github.com/StarDust0083-GP03/objgit"
+    },
+    {
+      "id": "attention:a2c263a2c12b7c2a8652",
+      "repoKey": "fork:1260349849",
+      "since": "2026-06-05T11:58:35Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-06-05",
+      "at": "2026-06-05T11:58:35Z",
+      "title": "StarDust0083-GP03/TrueMemory",
+      "url": "https://github.com/StarDust0083-GP03/TrueMemory"
+    },
+    {
+      "id": "attention:7e049e140523e9758380",
+      "repoKey": "star:1215450769",
+      "since": "2026-05-31T11:39:34Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-05-31",
+      "at": "2026-05-31T11:39:34Z",
+      "title": "ThariqS/html-effectiveness",
+      "url": "https://github.com/ThariqS/html-effectiveness"
+    },
+    {
+      "id": "attention:f549f4df8da3ba03e7b0",
+      "repoKey": "fork:1247993462",
+      "since": "2026-05-24T03:41:00Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-05-24",
+      "at": "2026-05-24T03:41:00Z",
+      "title": "StarDust0083-GP03/chaos",
+      "url": "https://github.com/StarDust0083-GP03/chaos"
+    },
+    {
+      "id": "attention:12f4cb344eca5eca1ef7",
+      "repoKey": "star:1199275586",
+      "since": "2026-05-24T03:40:57Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-05-24",
+      "at": "2026-05-24T03:40:57Z",
+      "title": "PaulKinlan/chaos",
+      "url": "https://github.com/PaulKinlan/chaos"
+    },
+    {
+      "id": "attention:61306ed00b8865f2624c",
+      "repoKey": "fork:1246626387",
+      "since": "2026-05-22T11:37:20Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-05-22",
+      "at": "2026-05-22T11:37:20Z",
+      "title": "StarDust0083-GP03/oh-my-pi",
+      "url": "https://github.com/StarDust0083-GP03/oh-my-pi"
+    },
+    {
+      "id": "attention:7d06ce2b73f8f059a377",
+      "repoKey": "fork:1246488772",
+      "since": "2026-05-22T08:40:14Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-05-22",
+      "at": "2026-05-22T08:40:14Z",
+      "title": "StarDust0083-GP03/bear-plugins",
+      "url": "https://github.com/StarDust0083-GP03/bear-plugins"
+    },
+    {
+      "id": "attention:22f465406cd13a35e5d2",
+      "repoKey": "fork:1242010391",
+      "since": "2026-05-18T03:45:21Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-05-18",
+      "at": "2026-05-18T03:45:21Z",
+      "title": "StarDust0083-GP03/zerostack",
+      "url": "https://github.com/StarDust0083-GP03/zerostack"
+    },
+    {
+      "id": "attention:9bd69bedd5226e88a443",
+      "repoKey": "fork:1236388297",
+      "since": "2026-05-12T07:47:36Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-05-12",
+      "at": "2026-05-12T07:47:36Z",
+      "title": "StarDust0083-GP03/octos",
+      "url": "https://github.com/StarDust0083-GP03/octos"
+    },
+    {
+      "id": "attention:5164f4ca7e5ff4ae4ad8",
+      "repoKey": "fork:1236311786",
+      "since": "2026-05-12T06:17:44Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-05-12",
+      "at": "2026-05-12T06:17:44Z",
+      "title": "StarDust0083-GP03/routa",
+      "url": "https://github.com/StarDust0083-GP03/routa"
+    },
+    {
+      "id": "attention:08ed1fdb87a92c7e8b7e",
+      "repoKey": "fork:1236197386",
+      "since": "2026-05-12T03:13:38Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-05-12",
+      "at": "2026-05-12T03:13:38Z",
+      "title": "StarDust0083-GP03/ljg-skills",
+      "url": "https://github.com/StarDust0083-GP03/ljg-skills"
+    },
+    {
+      "id": "attention:b2cbecf92dfb7c520fbc",
+      "repoKey": "fork:1231887909",
+      "since": "2026-05-07T11:36:58Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-05-07",
+      "at": "2026-05-07T11:36:58Z",
+      "title": "StarDust0083-GP03/design.md",
+      "url": "https://github.com/StarDust0083-GP03/design.md"
+    },
+    {
+      "id": "attention:93b65773b849e92027b1",
+      "repoKey": "fork:1231615495",
+      "since": "2026-05-07T06:02:38Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-05-07",
+      "at": "2026-05-07T06:02:38Z",
+      "title": "StarDust0083-GP03/everything-claude-code",
+      "url": "https://github.com/StarDust0083-GP03/everything-claude-code"
+    },
+    {
+      "id": "attention:45b28946315d0b8c21e3",
+      "repoKey": "star:1047091172",
+      "since": "2026-05-06T13:40:48Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-05-06",
+      "at": "2026-05-06T13:40:48Z",
+      "title": "symposium-dev/symposium",
+      "url": "https://github.com/symposium-dev/symposium"
+    },
+    {
+      "id": "attention:1abc95762172aa5bedb8",
+      "repoKey": "star:1216802904",
+      "since": "2026-05-06T07:18:32Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-05-06",
+      "at": "2026-05-06T07:18:32Z",
+      "title": "yaojingang/GEOLab",
+      "url": "https://github.com/yaojingang/GEOLab"
+    },
+    {
+      "id": "attention:a027b5660190e84916f4",
+      "repoKey": "fork:1225202214",
+      "since": "2026-04-30T03:39:30Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-04-30",
+      "at": "2026-04-30T03:39:30Z",
+      "title": "StarDust0083-GP03/Project-Dolores",
+      "url": "https://github.com/StarDust0083-GP03/Project-Dolores"
+    },
+    {
+      "id": "attention:976af49efff6de039ae5",
+      "repoKey": "fork:1223506404",
+      "since": "2026-04-28T11:44:25Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-04-28",
+      "at": "2026-04-28T11:44:25Z",
+      "title": "StarDust0083-GP03/Pask",
+      "url": "https://github.com/StarDust0083-GP03/Pask"
+    },
+    {
+      "id": "attention:aa56b9309ecbbcd6c327",
+      "repoKey": "fork:1221617956",
+      "since": "2026-04-26T13:10:58Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-04-26",
+      "at": "2026-04-26T13:10:58Z",
+      "title": "StarDust0083-GP03/learn-harness-engineering",
+      "url": "https://github.com/StarDust0083-GP03/learn-harness-engineering"
+    },
+    {
+      "id": "attention:feed229be4936729fe94",
+      "repoKey": "fork:1221597342",
+      "since": "2026-04-26T12:37:53Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-04-26",
+      "at": "2026-04-26T12:37:53Z",
+      "title": "StarDust0083-GP03/MD-This-Page",
+      "url": "https://github.com/StarDust0083-GP03/MD-This-Page"
+    },
+    {
+      "id": "attention:15a5f0fed0c6ad4777f5",
+      "repoKey": "fork:1221051611",
+      "since": "2026-04-25T17:30:59Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-04-25",
+      "at": "2026-04-25T17:30:59Z",
+      "title": "StarDust0083-GP03/raycast-g4f",
+      "url": "https://github.com/StarDust0083-GP03/raycast-g4f"
+    },
+    {
+      "id": "attention:7936c1767802249c6915",
+      "repoKey": "fork:1215028200",
+      "since": "2026-04-19T11:37:20Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-04-19",
+      "at": "2026-04-19T11:37:20Z",
+      "title": "StarDust0083-GP03/CL4R1T4S",
+      "url": "https://github.com/StarDust0083-GP03/CL4R1T4S"
+    },
+    {
+      "id": "attention:abd07e6761831748a7dd",
+      "repoKey": "fork:1209452178",
+      "since": "2026-04-13T12:50:10Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-04-13",
+      "at": "2026-04-13T12:50:10Z",
+      "title": "StarDust0083-GP03/swival",
+      "url": "https://github.com/StarDust0083-GP03/swival"
+    },
+    {
+      "id": "attention:eb44b3b9118abfdf983a",
+      "repoKey": "fork:1208579437",
+      "since": "2026-04-12T13:32:14Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-04-12",
+      "at": "2026-04-12T13:32:14Z",
+      "title": "StarDust0083-GP03/AstroBox-Public",
+      "url": "https://github.com/StarDust0083-GP03/AstroBox-Public"
+    },
+    {
+      "id": "attention:e7cbbd6fc25cff7985c2",
+      "repoKey": "fork:1208521660",
+      "since": "2026-04-12T11:58:10Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-04-12",
+      "at": "2026-04-12T11:58:10Z",
+      "title": "StarDust0083-GP03/awesome-engineering-articles",
+      "url": "https://github.com/StarDust0083-GP03/awesome-engineering-articles"
+    },
+    {
+      "id": "attention:4b7f9d545b265df17a09",
+      "repoKey": "fork:1208271176",
+      "since": "2026-04-12T03:43:14Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-04-12",
+      "at": "2026-04-12T03:43:14Z",
+      "title": "StarDust0083-GP03/Waza",
+      "url": "https://github.com/StarDust0083-GP03/Waza"
+    },
+    {
+      "id": "attention:8aae1047f8794c26d42e",
+      "repoKey": "fork:1203431497",
+      "since": "2026-04-07T03:11:47Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-04-07",
+      "at": "2026-04-07T03:11:47Z",
+      "title": "StarDust0083-GP03/guppylm",
+      "url": "https://github.com/StarDust0083-GP03/guppylm"
+    },
+    {
+      "id": "attention:137dbc3a7cb34c18a99a",
+      "repoKey": "fork:1200111585",
+      "since": "2026-04-03T03:41:59Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-04-03",
+      "at": "2026-04-03T03:41:59Z",
+      "title": "StarDust0083-GP03/harness-engineering-from-cc-to-ai-coding",
+      "url": "https://github.com/StarDust0083-GP03/harness-engineering-from-cc-to-ai-coding"
+    },
+    {
+      "id": "attention:fc088d0a240248617202",
+      "repoKey": "star:1198123667",
+      "since": "2026-04-03T03:41:55Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-04-03",
+      "at": "2026-04-03T03:41:55Z",
+      "title": "ZhangHanDong/harness-engineering-from-cc-to-ai-coding",
+      "url": "https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding"
+    },
+    {
+      "id": "attention:4d72e899e4a4671cdfb7",
+      "repoKey": "fork:1199042307",
+      "since": "2026-04-02T02:12:13Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-04-02",
+      "at": "2026-04-02T02:12:13Z",
+      "title": "StarDust0083-GP03/vox",
+      "url": "https://github.com/StarDust0083-GP03/vox"
+    },
+    {
+      "id": "attention:7d044bec1e1d4cef918c",
+      "repoKey": "fork:1197175186",
+      "since": "2026-03-31T11:39:56Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-03-31",
+      "at": "2026-03-31T11:39:56Z",
+      "title": "StarDust0083-GP03/TrendRadar",
+      "url": "https://github.com/StarDust0083-GP03/TrendRadar"
+    },
+    {
+      "id": "attention:88a1ca203bf32c07bcc7",
+      "repoKey": "fork:1197044685",
+      "since": "2026-03-31T09:24:49Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-03-31",
+      "at": "2026-03-31T09:24:49Z",
+      "title": "StarDust0083-GP03/claude-code-sourcemap",
+      "url": "https://github.com/StarDust0083-GP03/claude-code-sourcemap"
+    },
+    {
+      "id": "attention:2b13e9227a112ecadd7a",
+      "repoKey": "fork:1197043887",
+      "since": "2026-03-31T09:23:51Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-03-31",
+      "at": "2026-03-31T09:23:51Z",
+      "title": "StarDust0083-GP03/claude-code-source",
+      "url": "https://github.com/StarDust0083-GP03/claude-code-source"
+    },
+    {
+      "id": "attention:d023d74b2252c10976bd",
+      "repoKey": "fork:1195284168",
+      "since": "2026-03-29T13:32:52Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-03-29",
+      "at": "2026-03-29T13:32:52Z",
+      "title": "StarDust0083-GP03/pretext",
+      "url": "https://github.com/StarDust0083-GP03/pretext"
+    },
+    {
+      "id": "attention:e1bafa065e3f1ede0c90",
+      "repoKey": "star:1175538883",
+      "since": "2026-03-29T13:32:49Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-03-29",
+      "at": "2026-03-29T13:32:49Z",
+      "title": "chenglou/pretext",
+      "url": "https://github.com/chenglou/pretext"
+    },
+    {
+      "id": "attention:f98d74471fb9f33a99fc",
+      "repoKey": "fork:1192250627",
+      "since": "2026-03-26T03:11:48Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-03-26",
+      "at": "2026-03-26T03:11:48Z",
+      "title": "StarDust0083-GP03/skills",
+      "url": "https://github.com/StarDust0083-GP03/skills"
+    },
+    {
+      "id": "attention:7a02d88e246fda657c93",
+      "repoKey": "fork:1191623274",
+      "since": "2026-03-25T12:33:11Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-03-25",
+      "at": "2026-03-25T12:33:11Z",
+      "title": "StarDust0083-GP03/insanely-fast-whisper",
+      "url": "https://github.com/StarDust0083-GP03/insanely-fast-whisper"
+    },
+    {
+      "id": "attention:5d586f43a70b5bc16a50",
+      "repoKey": "fork:1190574710",
+      "since": "2026-03-24T12:18:53Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-03-24",
+      "at": "2026-03-24T12:18:53Z",
+      "title": "StarDust0083-GP03/minimind",
+      "url": "https://github.com/StarDust0083-GP03/minimind"
+    },
+    {
+      "id": "attention:cfad336ad4f5b8c601bf",
+      "repoKey": "fork:1189690323",
+      "since": "2026-03-23T15:15:31Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-03-23",
+      "at": "2026-03-23T15:15:31Z",
+      "title": "StarDust0083-GP03/letta",
+      "url": "https://github.com/StarDust0083-GP03/letta"
+    },
+    {
+      "id": "attention:960d7898e4af90120275",
+      "repoKey": "fork:1189688470",
+      "since": "2026-03-23T15:13:29Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-03-23",
+      "at": "2026-03-23T15:13:29Z",
+      "title": "StarDust0083-GP03/mini-swe-agent",
+      "url": "https://github.com/StarDust0083-GP03/mini-swe-agent"
+    },
+    {
+      "id": "attention:599762e6fddaa5755b17",
+      "repoKey": "fork:1189586508",
+      "since": "2026-03-23T13:23:26Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-03-23",
+      "at": "2026-03-23T13:23:26Z",
+      "title": "StarDust0083-GP03/gstack",
+      "url": "https://github.com/StarDust0083-GP03/gstack"
+    },
+    {
+      "id": "attention:a9fc07ace36d09447c59",
+      "repoKey": "fork:1189586344",
+      "since": "2026-03-23T13:23:16Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-03-23",
+      "at": "2026-03-23T13:23:16Z",
+      "title": "StarDust0083-GP03/superpowers",
+      "url": "https://github.com/StarDust0083-GP03/superpowers"
+    },
+    {
+      "id": "attention:62ba09eec5f7bb3ee204",
+      "repoKey": "star:1073224795",
+      "since": "2026-03-23T13:23:12Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-03-23",
+      "at": "2026-03-23T13:23:12Z",
+      "title": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "id": "attention:ddc9e893bf0b44c81207",
+      "repoKey": "fork:1186833135",
+      "since": "2026-03-20T03:15:45Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-03-20",
+      "at": "2026-03-20T03:15:45Z",
+      "title": "StarDust0083-GP03/knowledge-agent-template",
+      "url": "https://github.com/StarDust0083-GP03/knowledge-agent-template"
+    },
+    {
+      "id": "attention:33c3bf14a08e464a6309",
+      "repoKey": "star:1164477708",
+      "since": "2026-03-20T01:29:03Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-03-20",
+      "at": "2026-03-20T01:29:03Z",
+      "title": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode"
+    },
+    {
+      "id": "attention:f775c19c1c397c0c11c8",
+      "repoKey": "fork:1186779123",
+      "since": "2026-03-20T01:28:03Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-03-20",
+      "at": "2026-03-20T01:28:03Z",
+      "title": "StarDust0083-GP03/context-mode",
+      "url": "https://github.com/StarDust0083-GP03/context-mode"
+    },
+    {
+      "id": "attention:6df00255fb2a6c60adcc",
+      "repoKey": "star:1186208829",
+      "since": "2026-03-19T11:37:37Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-03-19",
+      "at": "2026-03-19T11:37:37Z",
+      "title": "StarDust0083-GP03/cocoindex-code",
+      "url": "https://github.com/StarDust0083-GP03/cocoindex-code"
+    },
+    {
+      "id": "attention:f9b752670b4180f99c87",
+      "repoKey": "fork:1186208829",
+      "since": "2026-03-19T11:37:34Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-03-19",
+      "at": "2026-03-19T11:37:34Z",
+      "title": "StarDust0083-GP03/cocoindex-code",
+      "url": "https://github.com/StarDust0083-GP03/cocoindex-code"
+    },
+    {
+      "id": "attention:53270a89c546f9c53886",
+      "repoKey": "fork:1185903486",
+      "since": "2026-03-19T03:53:41Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-03-19",
+      "at": "2026-03-19T03:53:41Z",
+      "title": "StarDust0083-GP03/nightingale",
+      "url": "https://github.com/StarDust0083-GP03/nightingale"
+    },
+    {
+      "id": "attention:178129db6980494b72b6",
+      "repoKey": "fork:1183214399",
+      "since": "2026-03-16T11:41:09Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-03-16",
+      "at": "2026-03-16T11:41:09Z",
+      "title": "StarDust0083-GP03/forge",
+      "url": "https://github.com/StarDust0083-GP03/forge"
+    },
+    {
+      "id": "attention:bec317b21d1e9d5104a5",
+      "repoKey": "fork:1182389307",
+      "since": "2026-03-15T13:06:13Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-03-15",
+      "at": "2026-03-15T13:06:13Z",
+      "title": "StarDust0083-GP03/rtk",
+      "url": "https://github.com/StarDust0083-GP03/rtk"
+    },
+    {
+      "id": "attention:9bc5083bc3e74755cd3b",
+      "repoKey": "star:1139971460",
+      "since": "2026-03-15T13:06:08Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-03-15",
+      "at": "2026-03-15T13:06:08Z",
+      "title": "rtk-ai/rtk",
+      "url": "https://github.com/rtk-ai/rtk"
+    },
+    {
+      "id": "attention:e37c50cd15d7f346a989",
+      "repoKey": "fork:1179464972",
+      "since": "2026-03-12T03:48:38Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-03-12",
+      "at": "2026-03-12T03:48:38Z",
+      "title": "StarDust0083-GP03/ai-engineering-field-guide",
+      "url": "https://github.com/StarDust0083-GP03/ai-engineering-field-guide"
+    },
+    {
+      "id": "attention:59532a62b347d0632665",
+      "repoKey": "star:1149784146",
+      "since": "2026-03-12T03:48:34Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-03-12",
+      "at": "2026-03-12T03:48:34Z",
+      "title": "alexeygrigorev/ai-engineering-field-guide",
+      "url": "https://github.com/alexeygrigorev/ai-engineering-field-guide"
+    },
+    {
+      "id": "attention:a95fcf9abc87131c59ff",
+      "repoKey": "fork:1177696582",
+      "since": "2026-03-10T09:27:28Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-03-10",
+      "at": "2026-03-10T09:27:28Z",
+      "title": "StarDust0083-GP03/qclaw-wechat-client",
+      "url": "https://github.com/StarDust0083-GP03/qclaw-wechat-client"
+    },
+    {
+      "id": "attention:2500c027623464aa8e0f",
+      "repoKey": "fork:1130967008",
+      "since": "2026-01-09T09:22:52Z",
+      "category": "learning",
+      "action": "fork",
+      "source": "GitHub",
+      "event": "Fork",
+      "date": "2026-01-09",
+      "at": "2026-01-09T09:22:52Z",
+      "title": "StarDust0083-GP03/yakety",
+      "url": "https://github.com/StarDust0083-GP03/yakety"
+    },
+    {
+      "id": "attention:d258715f3ffea8ece0b4",
+      "repoKey": "star:997980477",
+      "since": "2026-01-09T09:22:48Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-01-09",
+      "at": "2026-01-09T09:22:48Z",
+      "title": "badlogic/yakety",
+      "url": "https://github.com/badlogic/yakety"
+    },
+    {
+      "id": "attention:36e688cbe211703584ae",
+      "repoKey": "star:1040150324",
+      "since": "2026-01-08T00:34:27Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2026-01-08",
+      "at": "2026-01-08T00:34:27Z",
+      "title": "baby-llm/baby-sglang",
+      "url": "https://github.com/baby-llm/baby-sglang"
+    },
+    {
+      "id": "attention:5599302578fee1b5356b",
+      "repoKey": "star:1107212497",
+      "since": "2025-12-08T03:00:55Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2025-12-08",
+      "at": "2025-12-08T03:00:55Z",
+      "title": "LeslieLeung/glean",
+      "url": "https://github.com/LeslieLeung/glean"
+    },
+    {
+      "id": "attention:936bfffbe6b881190b95",
+      "repoKey": "star:838542536",
+      "since": "2025-12-03T06:02:21Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2025-12-03",
+      "at": "2025-12-03T06:02:21Z",
+      "title": "humanlayer/humanlayer",
+      "url": "https://github.com/humanlayer/humanlayer"
+    },
+    {
+      "id": "attention:b119031e537e7578d480",
+      "repoKey": "star:938863633",
+      "since": "2025-11-14T09:51:12Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2025-11-14",
+      "at": "2025-11-14T09:51:12Z",
+      "title": "Yuyz0112/claude-code-reverse",
+      "url": "https://github.com/Yuyz0112/claude-code-reverse"
+    },
+    {
+      "id": "attention:fbb25a816b74441fe7f2",
+      "repoKey": "star:90175624",
+      "since": "2025-11-10T09:10:44Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2025-11-10",
+      "at": "2025-11-10T09:10:44Z",
+      "title": "mezod/awesome-indie",
+      "url": "https://github.com/mezod/awesome-indie"
+    },
+    {
+      "id": "attention:12ae69487747fd94b61e",
+      "repoKey": "star:881506708",
+      "since": "2025-11-10T03:44:08Z",
+      "category": "learning",
+      "action": "star",
+      "source": "GitHub",
+      "event": "Star",
+      "date": "2025-11-10",
+      "at": "2025-11-10T03:44:08Z",
+      "title": "RooCodeInc/Roo-Code",
+      "url": "https://github.com/RooCodeInc/Roo-Code"
     }
-  ]
+  ],
+  "githubAttention": {
+    "star:618000065": {
+      "name": "dnhkng/GLaDOS",
+      "since": "2026-11-19T16:52:40Z"
+    },
+    "star:1220037045": {
+      "name": "PaulKinlan/prompt-in-a-box",
+      "since": "2026-11-19T03:20:36Z"
+    },
+    "star:1377059008": {
+      "name": "PaulKinlan/voicebox",
+      "since": "2026-11-17T08:23:36Z"
+    },
+    "star:1332781509": {
+      "name": "elie222/rakazo",
+      "since": "2026-11-17T05:44:07Z"
+    },
+    "star:1407951147": {
+      "name": "google-research/harness2",
+      "since": "2026-11-16T05:36:41Z"
+    },
+    "star:511191412": {
+      "name": "SunsetMkt/MSD-Manual-Portable",
+      "since": "2026-11-15T08:10:24Z"
+    },
+    "star:1454392563": {
+      "name": "makepad/relax",
+      "since": "2026-11-13T08:55:47Z"
+    },
+    "star:1446254310": {
+      "name": "bytesbay/pi-gpui",
+      "since": "2026-11-13T07:55:47Z"
+    },
+    "star:1409792187": {
+      "name": "thesysdev/open-intelligent-ui",
+      "since": "2026-11-11T14:23:54Z"
+    },
+    "star:1447227957": {
+      "name": "IainKay/ram-altman",
+      "since": "2026-11-09T12:24:56Z"
+    },
+    "star:1274703665": {
+      "name": "ardia-browser/ardia",
+      "since": "2026-11-09T06:04:50Z"
+    },
+    "star:1446426382": {
+      "name": "erans/fresh-session-continuation",
+      "since": "2026-11-08T11:51:50Z"
+    },
+    "star:1416356902": {
+      "name": "arcships/dim",
+      "since": "2026-11-08T11:51:26Z"
+    },
+    "star:1397409589": {
+      "name": "AFK-surf/Comma",
+      "since": "2026-11-08T06:22:17Z"
+    },
+    "star:1324949198": {
+      "name": "ranxianglei/billion-context",
+      "since": "2026-11-08T06:18:41Z"
+    },
+    "star:1209766308": {
+      "name": "hydro-project/infinity",
+      "since": "2026-11-03T14:51:51Z"
+    },
+    "star:1406324573": {
+      "name": "guregodevo/memdoor",
+      "since": "2026-11-02T03:28:22Z"
+    },
+    "star:1438540053": {
+      "name": "wangzan101/Mika",
+      "since": "2026-11-01T15:02:07Z"
+    },
+    "star:1427772704": {
+      "name": "Konata9/inkstone",
+      "since": "2026-11-01T09:56:37Z"
+    },
+    "star:1432442426": {
+      "name": "VictorKildahl/cra",
+      "since": "2026-11-01T06:03:58Z"
+    },
+    "star:1334894476": {
+      "name": "bigfish1913/pi-rust",
+      "since": "2026-11-01T03:19:41Z"
+    },
+    "star:1155965274": {
+      "name": "Donchitos/Claude-Code-Game-Studios",
+      "since": "2026-10-30T06:19:57Z"
+    },
+    "star:1398741146": {
+      "name": "cmpnd-ai/dspy-system-one-agent-patterns",
+      "since": "2026-10-30T01:43:27Z"
+    },
+    "star:1374682325": {
+      "name": "MichaelKinsy/PiG",
+      "since": "2026-10-29T03:06:05Z"
+    },
+    "star:1222917575": {
+      "name": "Nutlope/hallmark",
+      "since": "2026-10-29T03:05:45Z"
+    },
+    "star:1273646780": {
+      "name": "togg53192-cmd/jailbreaks",
+      "since": "2026-10-28T05:36:56Z"
+    },
+    "star:1165277268": {
+      "name": "Panniantong/Agent-Reach",
+      "since": "2026-10-27T03:23:08Z"
+    },
+    "star:1097346685": {
+      "name": "pbakaus/impeccable",
+      "since": "2026-10-26T05:56:32Z"
+    },
+    "star:1118085970": {
+      "name": "opensandbox-group/OpenSandbox",
+      "since": "2026-10-25T12:04:50Z"
+    },
+    "star:1433150550": {
+      "name": "StarDust0083-GP03/SnowLuma",
+      "since": "2026-10-25T12:01:16Z"
+    },
+    "star:92807616": {
+      "name": "byoungd/up",
+      "since": "2026-10-21T12:17:46Z"
+    },
+    "star:1293600453": {
+      "name": "TencentCloud/Octop",
+      "since": "2026-10-21T08:27:17Z"
+    },
+    "star:828268839": {
+      "name": "NirDiamant/RAG_Techniques",
+      "since": "2026-10-21T03:43:38Z"
+    },
+    "star:1406282614": {
+      "name": "dbreunig/pi-mast-steer",
+      "since": "2026-10-20T14:33:30Z"
+    },
+    "star:1355693235": {
+      "name": "second-state/wasmedge-agent",
+      "since": "2026-10-18T07:55:48Z"
+    },
+    "star:1410124849": {
+      "name": "wheresryan22/anatomy",
+      "since": "2026-10-15T03:50:13Z"
+    },
+    "star:1359648985": {
+      "name": "eternity4719/HowToLiveBetter",
+      "since": "2026-10-14T07:50:43Z"
+    },
+    "star:1028492186": {
+      "name": "eigent-ai/eigent",
+      "since": "2026-10-13T12:02:49Z"
+    },
+    "star:1335771179": {
+      "name": "aerovato/operator-memory",
+      "since": "2026-10-10T06:31:58Z"
+    },
+    "star:1200918219": {
+      "name": "softwaredoug/search-experiments",
+      "since": "2026-09-30T08:06:01Z"
+    },
+    "star:1393229560": {
+      "name": "firelex/jeff",
+      "since": "2026-09-30T03:07:46Z"
+    },
+    "star:1360620930": {
+      "name": "reladraw/reladraw",
+      "since": "2026-09-29T09:15:19Z"
+    },
+    "star:1375631360": {
+      "name": "bespokelabsai/nimble",
+      "since": "2026-09-28T15:25:11Z"
+    },
+    "star:1338539251": {
+      "name": "devdotfast/whiteboard",
+      "since": "2026-09-28T12:17:00Z"
+    },
+    "star:1166102148": {
+      "name": "DeusData/codebase-memory-mcp",
+      "since": "2026-09-24T06:41:47Z"
+    },
+    "star:1248194723": {
+      "name": "AprilNEA/OpenLogi",
+      "since": "2026-09-24T03:47:55Z"
+    },
+    "star:1375069862": {
+      "name": "jaredpalmer/kev",
+      "since": "2026-09-22T05:45:53Z"
+    },
+    "star:1375172727": {
+      "name": "dabit3/jev-experiments",
+      "since": "2026-09-20T12:26:45Z"
+    },
+    "star:1197515131": {
+      "name": "VoltAgent/awesome-design-md",
+      "since": "2026-09-13T03:38:43Z"
+    },
+    "star:114870155": {
+      "name": "CommandCodeAI/command-code",
+      "since": "2026-08-28T17:18:47Z"
+    },
+    "star:1329476290": {
+      "name": "anildash/dashtouch",
+      "since": "2026-08-21T06:11:44Z"
+    },
+    "star:1181982220": {
+      "name": "jackwener/OpenCLI",
+      "since": "2026-08-18T07:59:32Z"
+    },
+    "star:1280204353": {
+      "name": "google-gemini/gemini-android-computer-use-quickstart",
+      "since": "2026-08-17T13:38:57Z"
+    },
+    "star:576971893": {
+      "name": "yaroslavyaroslav/OpenAI-sublime-text",
+      "since": "2026-08-16T12:41:22Z"
+    },
+    "star:989024820": {
+      "name": "softwaredoug/cheat-at-search",
+      "since": "2026-08-16T11:48:57Z"
+    },
+    "star:1159938129": {
+      "name": "ZSeven-W/openpencil",
+      "since": "2026-08-13T13:50:27Z"
+    },
+    "star:1136666433": {
+      "name": "blader/humanizer",
+      "since": "2026-08-13T07:02:10Z"
+    },
+    "star:1232493406": {
+      "name": "PrimeIntellect-ai/prime-agent",
+      "since": "2026-08-12T08:47:22Z"
+    },
+    "star:255378816": {
+      "name": "bigskysoftware/htmx",
+      "since": "2026-07-31T12:24:06Z"
+    },
+    "star:1304159264": {
+      "name": "drumih/turbo-fieldfare",
+      "since": "2026-07-30T03:14:55Z"
+    },
+    "star:1307679581": {
+      "name": "QoderAI/better-harness",
+      "since": "2026-07-28T07:26:52Z"
+    },
+    "star:1310057619": {
+      "name": "slvDev/esp32-ai",
+      "since": "2026-07-27T03:08:21Z"
+    },
+    "star:1289755707": {
+      "name": "buchidonggua/dg-ai-notes",
+      "since": "2026-07-24T14:55:35Z"
+    },
+    "star:1130564872": {
+      "name": "koala73/worldmonitor",
+      "since": "2026-07-23T05:56:58Z"
+    },
+    "star:62994219": {
+      "name": "antirez/kilo",
+      "since": "2026-07-23T03:03:38Z"
+    },
+    "star:1245901041": {
+      "name": "WEIFENG2333/phistory",
+      "since": "2026-07-21T14:18:51Z"
+    },
+    "star:1174967074": {
+      "name": "ZhangHanDong/agent-spec",
+      "since": "2026-07-19T05:43:24Z"
+    },
+    "star:1134272247": {
+      "name": "runcat-dev/RunCatNeo",
+      "since": "2026-07-17T06:56:46Z"
+    },
+    "star:1266358941": {
+      "name": "runcat-dev/RunnerGallery",
+      "since": "2026-07-17T06:56:35Z"
+    },
+    "star:1288390205": {
+      "name": "Europa2061/pi-auto-approval",
+      "since": "2026-07-17T03:22:13Z"
+    },
+    "star:1294320539": {
+      "name": "asnowwolf/meta-project-poc",
+      "since": "2026-07-15T08:58:52Z"
+    },
+    "star:1215569807": {
+      "name": "malisper/pgrust",
+      "since": "2026-07-12T03:20:03Z"
+    },
+    "star:1216173720": {
+      "name": "tw93/Kami",
+      "since": "2026-07-09T12:06:28Z"
+    },
+    "star:1179363570": {
+      "name": "tw93/Waza",
+      "since": "2026-07-09T12:06:13Z"
+    },
+    "star:387213208": {
+      "name": "jackyzha0/quartz",
+      "since": "2026-06-28T09:41:17Z"
+    },
+    "star:1105984666": {
+      "name": "peteonrails/voxtype",
+      "since": "2026-06-26T06:18:43Z"
+    },
+    "star:1215450769": {
+      "name": "ThariqS/html-effectiveness",
+      "since": "2026-05-31T11:39:34Z"
+    },
+    "star:1199275586": {
+      "name": "PaulKinlan/chaos",
+      "since": "2026-05-24T03:40:57Z"
+    },
+    "star:1047091172": {
+      "name": "symposium-dev/symposium",
+      "since": "2026-05-06T13:40:48Z"
+    },
+    "star:1216802904": {
+      "name": "yaojingang/GEOLab",
+      "since": "2026-05-06T07:18:32Z"
+    },
+    "star:1198123667": {
+      "name": "ZhangHanDong/harness-engineering-from-cc-to-ai-coding",
+      "since": "2026-04-03T03:41:55Z"
+    },
+    "star:1175538883": {
+      "name": "chenglou/pretext",
+      "since": "2026-03-29T13:32:49Z"
+    },
+    "star:1073224795": {
+      "name": "obra/superpowers",
+      "since": "2026-03-23T13:23:12Z"
+    },
+    "star:1164477708": {
+      "name": "mksglu/context-mode",
+      "since": "2026-03-20T01:29:03Z"
+    },
+    "star:1186208829": {
+      "name": "StarDust0083-GP03/cocoindex-code",
+      "since": "2026-03-19T11:37:37Z"
+    },
+    "star:1139971460": {
+      "name": "rtk-ai/rtk",
+      "since": "2026-03-15T13:06:08Z"
+    },
+    "star:1149784146": {
+      "name": "alexeygrigorev/ai-engineering-field-guide",
+      "since": "2026-03-12T03:48:34Z"
+    },
+    "star:997980477": {
+      "name": "badlogic/yakety",
+      "since": "2026-01-09T09:22:48Z"
+    },
+    "star:1040150324": {
+      "name": "baby-llm/baby-sglang",
+      "since": "2026-01-08T00:34:27Z"
+    },
+    "star:1107212497": {
+      "name": "LeslieLeung/glean",
+      "since": "2025-12-08T03:00:55Z"
+    },
+    "star:838542536": {
+      "name": "humanlayer/humanlayer",
+      "since": "2025-12-03T06:02:21Z"
+    },
+    "star:938863633": {
+      "name": "Yuyz0112/claude-code-reverse",
+      "since": "2025-11-14T09:51:12Z"
+    },
+    "star:90175624": {
+      "name": "mezod/awesome-indie",
+      "since": "2025-11-10T09:10:44Z"
+    },
+    "star:881506708": {
+      "name": "RooCodeInc/Roo-Code",
+      "since": "2025-11-10T03:44:08Z"
+    },
+    "fork:1376184176": {
+      "name": "StarDust0083-GP03/agent-browser",
+      "since": "2026-09-18T17:08:34Z"
+    },
+    "fork:1435196404": {
+      "name": "StarDust0083-GP03/Agent-Reach",
+      "since": "2026-10-27T03:23:12Z"
+    },
+    "fork:1426311051": {
+      "name": "StarDust0083-GP03/AI-Engineer-from-scrach",
+      "since": "2026-10-20T00:07:37Z"
+    },
+    "fork:1179464972": {
+      "name": "StarDust0083-GP03/ai-engineering-field-guide",
+      "since": "2026-03-12T03:48:38Z"
+    },
+    "fork:1420137295": {
+      "name": "StarDust0083-GP03/anatomy",
+      "since": "2026-10-15T03:50:18Z"
+    },
+    "fork:1450995750": {
+      "name": "StarDust0083-GP03/ardia",
+      "since": "2026-11-09T06:04:52Z"
+    },
+    "fork:1411392135": {
+      "name": "StarDust0083-GP03/ARTEX",
+      "since": "2026-10-09T06:27:23Z"
+    },
+    "fork:1208579437": {
+      "name": "StarDust0083-GP03/AstroBox-Public",
+      "since": "2026-04-12T13:32:14Z"
+    },
+    "fork:1367970397": {
+      "name": "StarDust0083-GP03/awesome-design-md",
+      "since": "2026-09-13T03:38:48Z"
+    },
+    "fork:1208521660": {
+      "name": "StarDust0083-GP03/awesome-engineering-articles",
+      "since": "2026-04-12T11:58:10Z"
+    },
+    "fork:1246488772": {
+      "name": "StarDust0083-GP03/bear-plugins",
+      "since": "2026-05-22T08:40:14Z"
+    },
+    "fork:1314680547": {
+      "name": "StarDust0083-GP03/better-harness",
+      "since": "2026-07-28T07:26:57Z"
+    },
+    "fork:1450028360": {
+      "name": "StarDust0083-GP03/billion-context",
+      "since": "2026-11-08T06:18:44Z"
+    },
+    "fork:1336611732": {
+      "name": "StarDust0083-GP03/brain.md",
+      "since": "2026-08-17T03:19:29Z"
+    },
+    "fork:1247993462": {
+      "name": "StarDust0083-GP03/chaos",
+      "since": "2026-05-24T03:41:00Z"
+    },
+    "fork:1215028200": {
+      "name": "StarDust0083-GP03/CL4R1T4S",
+      "since": "2026-04-19T11:37:20Z"
+    },
+    "fork:1439353325": {
+      "name": "StarDust0083-GP03/Claude-Code-Game-Studios",
+      "since": "2026-10-30T06:20:00Z"
+    },
+    "fork:1197043887": {
+      "name": "StarDust0083-GP03/claude-code-source",
+      "since": "2026-03-31T09:23:51Z"
+    },
+    "fork:1197044685": {
+      "name": "StarDust0083-GP03/claude-code-sourcemap",
+      "since": "2026-03-31T09:24:49Z"
+    },
+    "fork:1283022417": {
+      "name": "StarDust0083-GP03/claude-tap",
+      "since": "2026-06-28T13:12:58Z"
+    },
+    "fork:1186208829": {
+      "name": "StarDust0083-GP03/cocoindex-code",
+      "since": "2026-03-19T11:37:34Z"
+    },
+    "fork:1384868671": {
+      "name": "StarDust0083-GP03/codebase-memory-mcp",
+      "since": "2026-09-24T06:41:50Z"
+    },
+    "fork:1450030403": {
+      "name": "StarDust0083-GP03/Comma",
+      "since": "2026-11-08T06:22:20Z"
+    },
+    "fork:1186779123": {
+      "name": "StarDust0083-GP03/context-mode",
+      "since": "2026-03-20T01:28:03Z"
+    },
+    "fork:1341464846": {
+      "name": "StarDust0083-GP03/dashtouch",
+      "since": "2026-08-21T06:11:47Z"
+    },
+    "fork:1456265962": {
+      "name": "StarDust0083-GP03/demo-to-production",
+      "since": "2026-11-13T06:58:30Z"
+    },
+    "fork:1231887909": {
+      "name": "StarDust0083-GP03/design.md",
+      "since": "2026-05-07T11:36:58Z"
+    },
+    "fork:1450234243": {
+      "name": "StarDust0083-GP03/dim",
+      "since": "2026-11-08T11:51:12Z"
+    },
+    "fork:1313364313": {
+      "name": "StarDust0083-GP03/esp32-ai",
+      "since": "2026-07-27T03:08:24Z"
+    },
+    "fork:1231615495": {
+      "name": "StarDust0083-GP03/everything-claude-code",
+      "since": "2026-05-07T06:02:38Z"
+    },
+    "fork:1322559478": {
+      "name": "StarDust0083-GP03/Falco",
+      "since": "2026-08-04T05:40:34Z"
+    },
+    "fork:1183214399": {
+      "name": "StarDust0083-GP03/forge",
+      "since": "2026-03-16T11:41:09Z"
+    },
+    "fork:1450234793": {
+      "name": "StarDust0083-GP03/fresh-session-continuation",
+      "since": "2026-11-08T11:51:53Z"
+    },
+    "fork:1337218345": {
+      "name": "StarDust0083-GP03/gemini-android-computer-use-quickstart",
+      "since": "2026-08-17T13:39:05Z"
+    },
+    "fork:1464420895": {
+      "name": "StarDust0083-GP03/GLaDOS",
+      "since": "2026-11-19T16:52:44Z"
+    },
+    "fork:1189586508": {
+      "name": "StarDust0083-GP03/gstack",
+      "since": "2026-03-23T13:23:26Z"
+    },
+    "fork:1203431497": {
+      "name": "StarDust0083-GP03/guppylm",
+      "since": "2026-04-07T03:11:47Z"
+    },
+    "fork:1437885809": {
+      "name": "StarDust0083-GP03/hallmark",
+      "since": "2026-10-29T03:05:49Z"
+    },
+    "fork:1200111585": {
+      "name": "StarDust0083-GP03/harness-engineering-from-cc-to-ai-coding",
+      "since": "2026-04-03T03:41:59Z"
+    },
+    "fork:1459589229": {
+      "name": "StarDust0083-GP03/harness2",
+      "since": "2026-11-16T05:36:31Z"
+    },
+    "fork:1418557567": {
+      "name": "StarDust0083-GP03/HowToLiveBetter",
+      "since": "2026-10-14T07:50:48Z"
+    },
+    "fork:1332808267": {
+      "name": "StarDust0083-GP03/humanizer",
+      "since": "2026-08-13T07:02:12Z"
+    },
+    "fork:1433963772": {
+      "name": "StarDust0083-GP03/impeccable",
+      "since": "2026-10-26T05:56:35Z"
+    },
+    "fork:1444432087": {
+      "name": "StarDust0083-GP03/infinity",
+      "since": "2026-11-03T14:51:56Z"
+    },
+    "fork:1441681972": {
+      "name": "StarDust0083-GP03/inkstone",
+      "since": "2026-11-01T09:56:42Z"
+    },
+    "fork:1191623274": {
+      "name": "StarDust0083-GP03/insanely-fast-whisper",
+      "since": "2026-03-25T12:33:11Z"
+    },
+    "fork:1436648833": {
+      "name": "StarDust0083-GP03/jailbreaks",
+      "since": "2026-10-28T05:37:01Z"
+    },
+    "fork:1396888021": {
+      "name": "StarDust0083-GP03/jeff",
+      "since": "2026-09-30T03:07:50Z"
+    },
+    "fork:1378310253": {
+      "name": "StarDust0083-GP03/jev-experiments",
+      "since": "2026-09-20T12:26:49Z"
+    },
+    "fork:1309462270": {
+      "name": "StarDust0083-GP03/kilo",
+      "since": "2026-07-23T03:03:42Z"
+    },
+    "fork:1186833135": {
+      "name": "StarDust0083-GP03/knowledge-agent-template",
+      "since": "2026-03-20T03:15:45Z"
+    },
+    "fork:1221617956": {
+      "name": "StarDust0083-GP03/learn-harness-engineering",
+      "since": "2026-04-26T13:10:58Z"
+    },
+    "fork:1330465488": {
+      "name": "StarDust0083-GP03/learnscape",
+      "since": "2026-08-11T03:45:02Z"
+    },
+    "fork:1189690323": {
+      "name": "StarDust0083-GP03/letta",
+      "since": "2026-03-23T15:15:31Z"
+    },
+    "fork:1236197386": {
+      "name": "StarDust0083-GP03/ljg-skills",
+      "since": "2026-05-12T03:13:38Z"
+    },
+    "fork:1221597342": {
+      "name": "StarDust0083-GP03/MD-This-Page",
+      "since": "2026-04-26T12:37:53Z"
+    },
+    "fork:1442464719": {
+      "name": "StarDust0083-GP03/memdoor",
+      "since": "2026-11-02T03:28:26Z"
+    },
+    "fork:1441933329": {
+      "name": "StarDust0083-GP03/Mika",
+      "since": "2026-11-01T15:02:13Z"
+    },
+    "fork:1189688470": {
+      "name": "StarDust0083-GP03/mini-swe-agent",
+      "since": "2026-03-23T15:13:29Z"
+    },
+    "fork:1190574710": {
+      "name": "StarDust0083-GP03/minimind",
+      "since": "2026-03-24T12:18:53Z"
+    },
+    "fork:1458582137": {
+      "name": "StarDust0083-GP03/MSD-Manual-Portable",
+      "since": "2026-11-15T08:10:27Z"
+    },
+    "fork:1185903486": {
+      "name": "StarDust0083-GP03/nightingale",
+      "since": "2026-03-19T03:53:41Z"
+    },
+    "fork:1393079836": {
+      "name": "StarDust0083-GP03/nimble",
+      "since": "2026-09-28T15:25:14Z"
+    },
+    "fork:1279812176": {
+      "name": "StarDust0083-GP03/objgit",
+      "since": "2026-06-25T03:17:44Z"
+    },
+    "fork:1428093505": {
+      "name": "StarDust0083-GP03/Octop",
+      "since": "2026-10-21T08:27:20Z"
+    },
+    "fork:1236388297": {
+      "name": "StarDust0083-GP03/octos",
+      "since": "2026-05-12T07:47:36Z"
+    },
+    "fork:1246626387": {
+      "name": "StarDust0083-GP03/oh-my-pi",
+      "since": "2026-05-22T11:37:20Z"
+    },
+    "fork:1454079960": {
+      "name": "StarDust0083-GP03/open-intelligent-ui",
+      "since": "2026-11-11T14:23:56Z"
+    },
+    "fork:1335919588": {
+      "name": "StarDust0083-GP03/OpenAI-sublime-text",
+      "since": "2026-08-16T12:41:28Z"
+    },
+    "fork:1338133916": {
+      "name": "StarDust0083-GP03/OpenCLI",
+      "since": "2026-08-18T07:59:35Z"
+    },
+    "fork:1377992387": {
+      "name": "StarDust0083-GP03/openjev-sglang",
+      "since": "2026-09-20T06:07:11Z"
+    },
+    "fork:1333170219": {
+      "name": "StarDust0083-GP03/openpencil",
+      "since": "2026-08-13T13:50:30Z"
+    },
+    "fork:1433153326": {
+      "name": "StarDust0083-GP03/OpenSandbox",
+      "since": "2026-10-25T12:04:42Z"
+    },
+    "fork:1412851438": {
+      "name": "StarDust0083-GP03/operator-memory",
+      "since": "2026-10-10T06:32:01Z"
+    },
+    "fork:1223506404": {
+      "name": "StarDust0083-GP03/Pask",
+      "since": "2026-04-28T11:44:25Z"
+    },
+    "fork:1297944422": {
+      "name": "StarDust0083-GP03/pgrust",
+      "since": "2026-07-12T03:20:07Z"
+    },
+    "fork:1456317523": {
+      "name": "StarDust0083-GP03/pi-gpui",
+      "since": "2026-11-13T07:55:50Z"
+    },
+    "fork:1441447188": {
+      "name": "StarDust0083-GP03/pi-rust",
+      "since": "2026-11-01T03:19:45Z"
+    },
+    "fork:1289723460": {
+      "name": "StarDust0083-GP03/piece",
+      "since": "2026-07-05T05:50:01Z"
+    },
+    "fork:1437886032": {
+      "name": "StarDust0083-GP03/PiG",
+      "since": "2026-10-29T03:06:08Z"
+    },
+    "fork:1195284168": {
+      "name": "StarDust0083-GP03/pretext",
+      "since": "2026-03-29T13:32:52Z"
+    },
+    "fork:1331810079": {
+      "name": "StarDust0083-GP03/prime-agent",
+      "since": "2026-08-12T08:47:15Z"
+    },
+    "fork:1225202214": {
+      "name": "StarDust0083-GP03/Project-Dolores",
+      "since": "2026-04-30T03:39:30Z"
+    },
+    "fork:1463611962": {
+      "name": "StarDust0083-GP03/prompt-in-a-box",
+      "since": "2026-11-19T03:20:40Z"
+    },
+    "fork:1281970208": {
+      "name": "StarDust0083-GP03/Prowl",
+      "since": "2026-06-27T06:31:55Z"
+    },
+    "fork:1177696582": {
+      "name": "StarDust0083-GP03/qclaw-wechat-client",
+      "since": "2026-03-10T09:27:28Z"
+    },
+    "fork:1427842771": {
+      "name": "StarDust0083-GP03/RAG_Techniques",
+      "since": "2026-10-21T03:43:42Z"
+    },
+    "fork:1460969223": {
+      "name": "StarDust0083-GP03/rakazo",
+      "since": "2026-11-17T05:44:10Z"
+    },
+    "fork:1221051611": {
+      "name": "StarDust0083-GP03/raycast-g4f",
+      "since": "2026-04-25T17:30:59Z"
+    },
+    "fork:1456372745": {
+      "name": "StarDust0083-GP03/relax",
+      "since": "2026-11-13T08:55:51Z"
+    },
+    "fork:1236311786": {
+      "name": "StarDust0083-GP03/routa",
+      "since": "2026-05-12T06:17:44Z"
+    },
+    "fork:1182389307": {
+      "name": "StarDust0083-GP03/rtk",
+      "since": "2026-03-15T13:06:13Z"
+    },
+    "fork:1462548429": {
+      "name": "StarDust0083-GP03/ryugi",
+      "since": "2026-11-18T08:57:03Z"
+    },
+    "fork:1397345851": {
+      "name": "StarDust0083-GP03/search-experiments",
+      "since": "2026-09-30T08:06:05Z"
+    },
+    "fork:1377993300": {
+      "name": "StarDust0083-GP03/SemIf",
+      "since": "2026-09-20T06:08:19Z"
+    },
+    "fork:1192250627": {
+      "name": "StarDust0083-GP03/skills",
+      "since": "2026-03-26T03:11:48Z"
+    },
+    "fork:1433150550": {
+      "name": "StarDust0083-GP03/SnowLuma",
+      "since": "2026-10-25T12:01:12Z"
+    },
+    "fork:1189586344": {
+      "name": "StarDust0083-GP03/superpowers",
+      "since": "2026-03-23T13:23:16Z"
+    },
+    "fork:1209452178": {
+      "name": "StarDust0083-GP03/swival",
+      "since": "2026-04-13T12:50:10Z"
+    },
+    "fork:1320264633": {
+      "name": "StarDust0083-GP03/TencentDB-Agent-Memory",
+      "since": "2026-08-02T14:30:33Z"
+    },
+    "fork:1197175186": {
+      "name": "StarDust0083-GP03/TrendRadar",
+      "since": "2026-03-31T11:39:56Z"
+    },
+    "fork:1260349849": {
+      "name": "StarDust0083-GP03/TrueMemory",
+      "since": "2026-06-05T11:58:35Z"
+    },
+    "fork:1316773836": {
+      "name": "StarDust0083-GP03/turbo-fieldfare",
+      "since": "2026-07-30T03:14:59Z"
+    },
+    "fork:1428341279": {
+      "name": "StarDust0083-GP03/up",
+      "since": "2026-10-21T12:17:49Z"
+    },
+    "fork:1461118130": {
+      "name": "StarDust0083-GP03/voicebox",
+      "since": "2026-11-17T08:23:43Z"
+    },
+    "fork:1199042307": {
+      "name": "StarDust0083-GP03/vox",
+      "since": "2026-04-02T02:12:13Z"
+    },
+    "fork:1208271176": {
+      "name": "StarDust0083-GP03/Waza",
+      "since": "2026-04-12T03:43:14Z"
+    },
+    "fork:1392629738": {
+      "name": "StarDust0083-GP03/whiteboard",
+      "since": "2026-09-28T12:17:04Z"
+    },
+    "fork:1283023996": {
+      "name": "StarDust0083-GP03/witr",
+      "since": "2026-06-28T13:14:47Z"
+    },
+    "fork:1309576806": {
+      "name": "StarDust0083-GP03/worldmonitor",
+      "since": "2026-07-23T05:57:02Z"
+    },
+    "fork:1130967008": {
+      "name": "StarDust0083-GP03/yakety",
+      "since": "2026-01-09T09:22:52Z"
+    },
+    "fork:1242010391": {
+      "name": "StarDust0083-GP03/zerostack",
+      "since": "2026-05-18T03:45:21Z"
+    }
+  }
 }

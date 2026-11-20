@@ -29,6 +29,11 @@ for e in events:
     name=e['repo']['name']; rel=e['payload'].get('release') or {}
     if name.split('/')[0].lower()!='stardust0083-gp03' or not rel.get('html_url','').startswith('https://github.com/'):continue
     cards.append({'id':'release:'+str(rel['id']),'source':'GitHub','title':name,'event':'发布 '+rel['tag_name'],'date':e['created_at'][:10],'url':rel['html_url']})
-cards.sort(key=lambda c:(c['date'],c['id']),reverse=True)
-out=root/'public/data/milestones.json';out.parent.mkdir(parents=True,exist_ok=True);out.write_text(json.dumps({'schemaVersion':1,'cards':cards},ensure_ascii=False,indent=2)+'\n')
+from github_attention import collect
+state,attention=collect(headers)
+for c in cards:
+    c['category']={'微信读书':'reading','GitHub':'project','Obsidian':'note'}[c['source']]
+cards.extend(attention)
+cards.sort(key=lambda c:(c.get('at',c['date']),c['id']),reverse=True)
+out=root/'public/data/milestones.json';out.parent.mkdir(parents=True,exist_ok=True);out.write_text(json.dumps({'schemaVersion':2,'cards':cards,'githubAttention':state},ensure_ascii=False,indent=2)+'\n')
 print('Public milestone cards:',len(cards))

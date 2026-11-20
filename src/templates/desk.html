@@ -1418,15 +1418,15 @@ function layoutPile(pile,opts){
 var publicCards=/*PUBLIC_MILESTONES*/[];
 function milestoneHTML(c,slot){
   var book=c.source==='微信读书', v=varsFor(slot,book?'book':'thought',{});
-  return '<article class="it '+(book?'it--book':'it--thought')+'" data-spatial-item="'+esc(slot)+'" data-kind="'+(book?'book':'thought')+'" style="'+v.css+';padding:18px"><small class="p">'+esc(c.source)+' · '+esc(c.date)+'</small><h3 class="p" style="overflow-wrap:anywhere"><a class="lnk" href="'+esc(c.url)+'">'+esc(c.title)+'</a></h3><strong class="p">'+esc(c.event)+'</strong></article>';
+  return '<article class="it '+(book?'it--book':'it--thought')+'" data-spatial-item="'+esc(slot)+'" data-kind="'+(book?'book':'thought')+'" style="'+v.css+';padding:18px"><small class="p"><b>'+esc(c.category||(book?'reading':c.source==='GitHub'?'project':'note'))+'</b> · '+esc(c.source)+' · '+esc(c.date)+'</small><h3 class="p" style="overflow-wrap:anywhere"><a class="lnk" href="'+esc(c.url)+'">'+esc(c.title)+'</a></h3><strong class="p">'+esc(c.event)+'</strong></article>';
 }
 function homeParts(){
   var parts=[], i, r, ps=repoStore.projects;
   homeSizing=true;
   for(i=0;i<HOME_IDS.length;i++){
     r=A.get(HOME_IDS[i]);
-    var source={'book-102':'微信读书','thought-30':'Obsidian','fork-62':'GitHub'}[HOME_IDS[i]];
-    var card=source && publicCards.find(function(c){return c.source===source;});
+    var label={'book-102':'reading','thought-30':'note','fork-62':'project','web-320':'star','thought-31':'fork'}[HOME_IDS[i]];
+    var card=label && publicCards.find(function(c){return (c.action||c.category)===label;});
     if(card) parts.push(milestoneHTML(card,HOME_IDS[i]));
     else if(r) parts.push(recordHTML(r,r.id==='highlight-102'?{hero:true}:null));
     if(i===3){
