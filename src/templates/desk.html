@@ -1421,19 +1421,20 @@ function milestoneHTML(c,slot){
   return '<article class="it '+(book?'it--book':'it--thought')+'" data-spatial-item="'+esc(slot)+'" data-kind="'+(book?'book':'thought')+'" style="'+v.css+';padding:18px"><small class="p"><b>'+esc(c.category||(book?'reading':c.source==='GitHub'?'project':'note'))+'</b> · '+esc(c.source)+' · '+esc(c.date)+'</small><h3 class="p" style="overflow-wrap:anywhere"><a class="lnk" href="'+esc(c.url)+'">'+esc(c.title)+'</a></h3><strong class="p">'+esc(c.event)+'</strong></article>';
 }
 function homeParts(){
-  var parts=[], i, r, ps=repoStore.projects;
+  var parts=[], i, r, ps=repoStore.projects, shown=new Set();
   homeSizing=true;
   for(i=0;i<HOME_IDS.length;i++){
     r=A.get(HOME_IDS[i]);
     var label={'book-102':'reading','thought-30':'note','fork-62':'project','web-320':'star','thought-31':'fork'}[HOME_IDS[i]];
     var card=label && publicCards.find(function(c){return (c.action||c.category)===label;});
-    if(card) parts.push(milestoneHTML(card,HOME_IDS[i]));
+    if(card){parts.push(milestoneHTML(card,HOME_IDS[i]));shown.add(card.id);}
     else if(r) parts.push(recordHTML(r,r.id==='highlight-102'?{hero:true}:null));
     if(i===3){
       parts.push(entryHTML(A.counts().total));
       if(ps[0]) parts.push(projectHTML(ps[0]));
     }
   }
+  publicCards.forEach(function(c){if(!shown.has(c.id)) parts.push(milestoneHTML(c,'public-'+encodeURIComponent(c.id)));});
   for(i=1;i<ps.length;i++) parts.push(projectHTML(ps[i]));
   // The underlying collection grows; the table only keeps three recent arrivals.
   for(i=Math.max(0,state.incoming.length-3);i<state.incoming.length;i++) parts.push(recordHTML(state.incoming[i],null));

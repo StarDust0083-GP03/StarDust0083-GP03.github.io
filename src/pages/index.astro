@@ -2,6 +2,7 @@
 // Keep the approved standalone template intact, including its inline scripts.
 import desk from '../templates/desk.html?raw';
 import milestones from '../../public/data/milestones.json';
-const payload=JSON.stringify(milestones.cards).replace(/</g,'\\u003c');
+import { homeCards } from '../home-cards.mjs';
+const payload=JSON.stringify(homeCards(milestones.cards)).replace(/</g,'\\u003c');
 ---
 <Fragment set:html={desk.replace('/*PUBLIC_MILESTONES*/[]',()=>payload)} />
